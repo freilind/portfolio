@@ -1,0 +1,83 @@
+{
+    "description.name": "Freilin Manzano",
+    "description.greeting": "Dear (a), first of all a cordial greeting.",
+    "description.body.part1": "My name is Freilin Manzano, I was born in Venezuela",
+    "description.body.part2": " and I am currently based in Chile",
+    "description.body.part3": " I am dedicated to web development, with experience (+8 years) and Java certification (Java SE 8 Programmer I 1Z0-808), enthusiastic about the front-end area with React.js, Next.js, TailwindCss, Flutter.",
+
+    "collapse.title.1": "Portfolio",
+    "collapse.subtitle.1": "Projects made  with react.",
+    "collapse.title.2": "Experience",
+    "collapse.subtitle.2": "Work experience.",
+    "collapse.title.3": "Education",
+    "collapse.subtitle.3": " ",
+    "collapse.title.4": "Certifications & Courses",
+    "collapse.subtitle.4": " ",
+
+    "experienceList": [
+        {
+            "company": "Nisum Latam",
+            "date": "May 16 - Present",
+            "description": "Development of a mortgage loan product for the banking sector. Developing new components for microservices architecture and maintaining the integration with the monolith for the continuity of the operation. Supporting the organization in digital transformation and agile methodologies.",
+            "tech": "Technologies: java, spring boot, spring cloud, angular, nodejs, jenkins.",
+            "rol": "Senior Developer"
+        },
+        {
+            "company": "LOREBI",
+            "date": "Jan 15 - Apr 16",
+            "description": "Development of a free Wi-Fi platform that requires the person to watch segmented advertising before allowing them to browse for a certain time. My role was the development of the entire application using java and the Spring mvc framework. Development of a dashboard that displays the metrics and behavior of Wi-Fi users.",
+            "tech": "Technologies: java, spring mvc, jpa, hibernate, glassfish, maven, svn.",
+            "rol": "IT Specialist"
+        },
+        {
+            "company": "Corp. Wimac Systems",
+            "date": "Nov 13 - May 14",
+            "description": "Project on claims and massive failures. Telecommunications Movilnet C.A. Module development to record customer complaints and generate statistics and reports that will help business management to make decisions regarding failures. My role was the development of the view and controller layer of the system.",
+            "tech": "Technologies: java, primefaces, ejb, Jboss, python, eclipseIDE, postgresql.",
+            "rol": "IT Specialist"
+        },
+        {
+            "company": "Eliexir Cm Computer",
+            "date": "Nov 12 - Nov 13",
+            "description": "Voice Project module for CVSC+. Telefonica Venezuela. Development of a module to associate telephone numbers in order to achieve direct communication with special plans and conditions. My role was the development of a webservice that would use the corresponding stored procedures for the activation and deactivation of plans and services in the voice VPN module.",
+            "tech": "Technologies: java, weblogic 8.5, web services, eclipse IDE, svn, maven soap UI.",
+            "rol": "Java developer"
+        }
+    ],
+
+    "educationHead": [
+        {
+            "key": "organization",
+            "label": "ORGANIZATION"
+        },
+        {
+            "key": "description",
+            "label": "DESCRIPTION"
+        },
+        {
+            "key": "date",
+            "label": "DATE"
+        }
+    ],
+
+    "educationList": [
+        {
+            "key": "1",
+            "organization": "ORACLE",
+            "description": "Oracle Certified Associate, Java SE 8 Programmer",
+            "date": "2019"
+        },
+        {
+            "key": "2",
+            "organization": "UNITEC",
+            "description": "Diplomat BPM-SOA",
+            "date": "2016"
+        },
+        {
+            "key": "3",
+            "organization": "IUGT",
+            "description": "Higher University Computer Technician",
+            "date": "2012"
+        }
+    ]
+}

@@ -1,0 +1,276 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Portfolio snapshot renders portfolio unchanged 1`] = `
+<div>
+  <div
+    class="nextui-c-kRHeuF nextui-c-kRHeuF-idYPjDv-css nextui-grid-item sm"
+  >
+    <a
+      class="nextui-c-dIWzTP nextui-c-PJLV nextui-c-dIWzTP-hfnKRU-color-default nextui-c-dIWzTP-isWIbj-animated-true nextui-c-PJLV-gulvcB-isFocusVisible-false nextui-c-dIWzTP-icTVmtU-css nextui-link"
+      href="/portfolio/github-user-search"
+    >
+      <div
+        class="nextui-c-BDLTQ nextui-c-jMTBsW nextui-c-PJLV nextui-c-BDLTQ-kUADSW-variant-bordered nextui-c-BDLTQ-fmlsco-borderWeight-light nextui-c-BDLTQ-cuwTXc-disableAnimation-false nextui-c-PJLV-gulvcB-isFocusVisible-false"
+        role="section"
+        tabindex="-1"
+      >
+        <div
+          class="nextui-c-jxECYO nextui-c-jxECYO-icwRywK-css"
+        >
+          <div
+            class="nextui-c-cMTZRp nextui-c-cMTZRp-ijmTDtb-css"
+          >
+            <h4
+              class="nextui-c-PJLV nextui-c-PJLV-ijyaHDY-css"
+            />
+            <span
+              aria-hidden="true"
+              class="nextui-c-gNVTSf nextui-c-gNVTSf-hakyQ-inline-false nextui-c-gNVTSf-igvLppd-css"
+            />
+          </div>
+        </div>
+        <div
+          class="nextui-c-iVzbCs nextui-c-iVzbCs-bDGmTT-ready-true nextui-c-iVzbCs-iiWEgdr-css nextui-image-container nextui-image--loading"
+          data-state="loading"
+        >
+          <div
+            class="nextui-c-FIiRH nextui-c-FIiRH-ibDGmTT-css nextui-image-skeleton"
+          />
+          <img
+            alt=""
+            class="nextui-c-kbhVdb nextui-c-kbhVdb-ieCSSFU-css nextui-image"
+            data-state="loading"
+            src="/images/github-search-dark.png"
+            width="100%"
+          />
+        </div>
+      </div>
+    </a>
+  </div>
+  <div
+    class="nextui-c-kRHeuF nextui-c-kRHeuF-idYPjDv-css nextui-grid-item sm"
+  >
+    <a
+      class="nextui-c-dIWzTP nextui-c-PJLV nextui-c-dIWzTP-hfnKRU-color-default nextui-c-dIWzTP-isWIbj-animated-true nextui-c-PJLV-gulvcB-isFocusVisible-false nextui-c-dIWzTP-icTVmtU-css nextui-link"
+      href="/portfolio/to-do"
+    >
+      <div
+        class="nextui-c-BDLTQ nextui-c-jMTBsW nextui-c-PJLV nextui-c-BDLTQ-kUADSW-variant-bordered nextui-c-BDLTQ-fmlsco-borderWeight-light nextui-c-BDLTQ-cuwTXc-disableAnimation-false nextui-c-PJLV-gulvcB-isFocusVisible-false"
+        role="section"
+        tabindex="-1"
+      >
+        <div
+          class="nextui-c-jxECYO nextui-c-jxECYO-icwRywK-css"
+        >
+          <div
+            class="nextui-c-cMTZRp nextui-c-cMTZRp-ijmTDtb-css"
+          >
+            <h4
+              class="nextui-c-PJLV nextui-c-PJLV-ijyaHDY-css"
+            />
+            <span
+              aria-hidden="true"
+              class="nextui-c-gNVTSf nextui-c-gNVTSf-hakyQ-inline-false nextui-c-gNVTSf-igvLppd-css"
+            />
+          </div>
+        </div>
+        <div
+          class="nextui-c-iVzbCs nextui-c-iVzbCs-bDGmTT-ready-true nextui-c-iVzbCs-iiWEgdr-css nextui-image-container nextui-image--loading"
+          data-state="loading"
+        >
+          <div
+            class="nextui-c-FIiRH nextui-c-FIiRH-ibDGmTT-css nextui-image-skeleton"
+          />
+          <img
+            alt=""
+            class="nextui-c-kbhVdb nextui-c-kbhVdb-ieCSSFU-css nextui-image"
+            data-state="loading"
+            src="/images/todo-dark.png"
+            width="100%"
+          />
+        </div>
+      </div>
+    </a>
+  </div>
+  <div
+    class="nextui-c-kRHeuF nextui-c-kRHeuF-idYPjDv-css nextui-grid-item sm"
+  >
+    <a
+      class="nextui-c-dIWzTP nextui-c-PJLV nextui-c-dIWzTP-hfnKRU-color-default nextui-c-dIWzTP-isWIbj-animated-true nextui-c-PJLV-gulvcB-isFocusVisible-false nextui-c-dIWzTP-icTVmtU-css nextui-link"
+      href="/portfolio/markdown"
+    >
+      <div
+        class="nextui-c-BDLTQ nextui-c-jMTBsW nextui-c-PJLV nextui-c-BDLTQ-kUADSW-variant-bordered nextui-c-BDLTQ-fmlsco-borderWeight-light nextui-c-BDLTQ-cuwTXc-disableAnimation-false nextui-c-PJLV-gulvcB-isFocusVisible-false"
+        role="section"
+        tabindex="-1"
+      >
+        <div
+          class="nextui-c-jxECYO nextui-c-jxECYO-icwRywK-css"
+        >
+          <div
+            class="nextui-c-cMTZRp nextui-c-cMTZRp-ijmTDtb-css"
+          >
+            <h4
+              class="nextui-c-PJLV nextui-c-PJLV-ijyaHDY-css"
+            />
+            <span
+              aria-hidden="true"
+              class="nextui-c-gNVTSf nextui-c-gNVTSf-hakyQ-inline-false nextui-c-gNVTSf-igvLppd-css"
+            />
+          </div>
+        </div>
+        <div
+          class="nextui-c-iVzbCs nextui-c-iVzbCs-bDGmTT-ready-true nextui-c-iVzbCs-iiWEgdr-css nextui-image-container nextui-image--loading"
+          data-state="loading"
+        >
+          <div
+            class="nextui-c-FIiRH nextui-c-FIiRH-ibDGmTT-css nextui-image-skeleton"
+          />
+          <img
+            alt=""
+            class="nextui-c-kbhVdb nextui-c-kbhVdb-ieCSSFU-css nextui-image"
+            data-state="loading"
+            src="/images/markdown-preview-dark.png"
+            width="100%"
+          />
+        </div>
+      </div>
+    </a>
+  </div>
+  <div
+    class="nextui-c-kRHeuF nextui-c-kRHeuF-idYPjDv-css nextui-grid-item sm"
+  >
+    <a
+      class="nextui-c-dIWzTP nextui-c-PJLV nextui-c-dIWzTP-hfnKRU-color-default nextui-c-dIWzTP-isWIbj-animated-true nextui-c-PJLV-gulvcB-isFocusVisible-false nextui-c-dIWzTP-icTVmtU-css nextui-link"
+      href="/portfolio/reduce-text"
+    >
+      <div
+        class="nextui-c-BDLTQ nextui-c-jMTBsW nextui-c-PJLV nextui-c-BDLTQ-kUADSW-variant-bordered nextui-c-BDLTQ-fmlsco-borderWeight-light nextui-c-BDLTQ-cuwTXc-disableAnimation-false nextui-c-PJLV-gulvcB-isFocusVisible-false"
+        role="section"
+        tabindex="-1"
+      >
+        <div
+          class="nextui-c-jxECYO nextui-c-jxECYO-icwRywK-css"
+        >
+          <div
+            class="nextui-c-cMTZRp nextui-c-cMTZRp-ijmTDtb-css"
+          >
+            <h4
+              class="nextui-c-PJLV nextui-c-PJLV-ijyaHDY-css"
+            />
+            <span
+              aria-hidden="true"
+              class="nextui-c-gNVTSf nextui-c-gNVTSf-hakyQ-inline-false nextui-c-gNVTSf-igvLppd-css"
+            />
+          </div>
+        </div>
+        <div
+          class="nextui-c-iVzbCs nextui-c-iVzbCs-bDGmTT-ready-true nextui-c-iVzbCs-iiWEgdr-css nextui-image-container nextui-image--loading"
+          data-state="loading"
+        >
+          <div
+            class="nextui-c-FIiRH nextui-c-FIiRH-ibDGmTT-css nextui-image-skeleton"
+          />
+          <img
+            alt=""
+            class="nextui-c-kbhVdb nextui-c-kbhVdb-ieCSSFU-css nextui-image"
+            data-state="loading"
+            src="/images/reduce-dark.png"
+            width="100%"
+          />
+        </div>
+      </div>
+    </a>
+  </div>
+  <div
+    class="nextui-c-kRHeuF nextui-c-kRHeuF-idYPjDv-css nextui-grid-item sm"
+  >
+    <a
+      class="nextui-c-dIWzTP nextui-c-PJLV nextui-c-dIWzTP-hfnKRU-color-default nextui-c-dIWzTP-isWIbj-animated-true nextui-c-PJLV-gulvcB-isFocusVisible-false nextui-c-dIWzTP-icTVmtU-css nextui-link"
+      href="/portfolio/pokemon"
+    >
+      <div
+        class="nextui-c-BDLTQ nextui-c-jMTBsW nextui-c-PJLV nextui-c-BDLTQ-kUADSW-variant-bordered nextui-c-BDLTQ-fmlsco-borderWeight-light nextui-c-BDLTQ-cuwTXc-disableAnimation-false nextui-c-PJLV-gulvcB-isFocusVisible-false"
+        role="section"
+        tabindex="-1"
+      >
+        <div
+          class="nextui-c-jxECYO nextui-c-jxECYO-icwRywK-css"
+        >
+          <div
+            class="nextui-c-cMTZRp nextui-c-cMTZRp-ijmTDtb-css"
+          >
+            <h4
+              class="nextui-c-PJLV nextui-c-PJLV-ijyaHDY-css"
+            />
+            <span
+              aria-hidden="true"
+              class="nextui-c-gNVTSf nextui-c-gNVTSf-hakyQ-inline-false nextui-c-gNVTSf-igvLppd-css"
+            />
+          </div>
+        </div>
+        <div
+          class="nextui-c-iVzbCs nextui-c-iVzbCs-bDGmTT-ready-true nextui-c-iVzbCs-iiWEgdr-css nextui-image-container nextui-image--loading"
+          data-state="loading"
+        >
+          <div
+            class="nextui-c-FIiRH nextui-c-FIiRH-ibDGmTT-css nextui-image-skeleton"
+          />
+          <img
+            alt=""
+            class="nextui-c-kbhVdb nextui-c-kbhVdb-ieCSSFU-css nextui-image"
+            data-state="loading"
+            src="/images/pokemon-dark.png"
+            width="100%"
+          />
+        </div>
+      </div>
+    </a>
+  </div>
+  <div
+    class="nextui-c-kRHeuF nextui-c-kRHeuF-idYPjDv-css nextui-grid-item sm"
+  >
+    <a
+      class="nextui-c-dIWzTP nextui-c-PJLV nextui-c-dIWzTP-hfnKRU-color-default nextui-c-dIWzTP-isWIbj-animated-true nextui-c-PJLV-gulvcB-isFocusVisible-false nextui-c-dIWzTP-icTVmtU-css nextui-link"
+      href="/portfolio/fquiz"
+    >
+      <div
+        class="nextui-c-BDLTQ nextui-c-jMTBsW nextui-c-PJLV nextui-c-BDLTQ-kUADSW-variant-bordered nextui-c-BDLTQ-fmlsco-borderWeight-light nextui-c-BDLTQ-cuwTXc-disableAnimation-false nextui-c-PJLV-gulvcB-isFocusVisible-false"
+        role="section"
+        tabindex="-1"
+      >
+        <div
+          class="nextui-c-jxECYO nextui-c-jxECYO-icwRywK-css"
+        >
+          <div
+            class="nextui-c-cMTZRp nextui-c-cMTZRp-ijmTDtb-css"
+          >
+            <h4
+              class="nextui-c-PJLV nextui-c-PJLV-ijyaHDY-css"
+            />
+            <span
+              aria-hidden="true"
+              class="nextui-c-gNVTSf nextui-c-gNVTSf-hakyQ-inline-false nextui-c-gNVTSf-igvLppd-css"
+            />
+          </div>
+        </div>
+        <div
+          class="nextui-c-iVzbCs nextui-c-iVzbCs-bDGmTT-ready-true nextui-c-iVzbCs-iiWEgdr-css nextui-image-container nextui-image--loading"
+          data-state="loading"
+        >
+          <div
+            class="nextui-c-FIiRH nextui-c-FIiRH-ibDGmTT-css nextui-image-skeleton"
+          />
+          <img
+            alt=""
+            class="nextui-c-kbhVdb nextui-c-kbhVdb-ieCSSFU-css nextui-image"
+            data-state="loading"
+            src="/images/fquiz-dark.png"
+            width="100%"
+          />
+        </div>
+      </div>
+    </a>
+  </div>
+</div>
+`;

@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ListSkill snapshot renders skills unchanged 1`] = `
+<div>
+  <i
+    class="bx bx-lg bxl-java"
+  />
+  <i
+    class="bx bx-lg bxl-spring-boot"
+  />
+  <i
+    class="bx bx-lg bxl-javascript"
+  />
+  <i
+    class="bx bx-lg bxl-react"
+  />
+  <i
+    class="bx bx-lg bxl-tailwind-css"
+  />
+  <i
+    class="bx bx-lg bxl-aws"
+  />
+  <i
+    class="bx bx-lg bxl-mongodb"
+  />
+</div>
+`;

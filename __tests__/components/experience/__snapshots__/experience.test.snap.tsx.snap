@@ -1,0 +1,326 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Experience snapshot renders experience unchanged 1`] = `
+<div>
+  <div
+    class="nextui-c-kRHeuF nextui-c-kRHeuF-ihLgHeV-css nextui-grid-item nextui-grid-container"
+  >
+    <div
+      class="nextui-c-kRHeuF nextui-c-kRHeuF-idJnZoH-css nextui-grid-item xs sm"
+    >
+      <div
+        class="nextui-c-BDLTQ nextui-c-jMTBsW nextui-c-PJLV nextui-c-BDLTQ-kUADSW-variant-bordered nextui-c-BDLTQ-fmlsco-borderWeight-light nextui-c-BDLTQ-cuwTXc-disableAnimation-false nextui-c-PJLV-gulvcB-isFocusVisible-false nextui-c-BDLTQ-iihsuwN-css"
+        role="section"
+        tabindex="-1"
+      >
+        <div
+          class="nextui-c-jxECYO"
+        >
+          <div
+            class="nextui-c-kRHeuF nextui-c-kRHeuF-ijMQPzd-css nextui-grid-item xs"
+          >
+            <div
+              class="nextui-c-dfbgCO nextui-c-dfbgCO-fGHEql-fluid-true nextui-c-dfbgCO-idIWWzx-css"
+            >
+              <h4
+                class="nextui-c-PJLV nextui-c-PJLV-ibMlwRW-css"
+              >
+                Nisum Latam
+              </h4>
+            </div>
+          </div>
+          <div
+            class="nextui-c-kRHeuF nextui-c-kRHeuF-ikskwLs-css nextui-grid-item xs"
+          >
+            <div
+              class="nextui-c-dfbgCO nextui-c-dfbgCO-fGHEql-fluid-true nextui-c-dfbgCO-idIWWzx-css"
+            >
+              <small
+                class="nextui-c-PJLV nextui-c-PJLV-ijnlmIz-css"
+              >
+                May 16 - Actualidad
+              </small>
+            </div>
+          </div>
+        </div>
+        <div
+          class="nextui-c-bZLhCa nextui-c-bZLhCa-qCmpO-color-default nextui-c-bZLhCa-iiMwZzC-css"
+          role="separator"
+        />
+        <div
+          class="nextui-c-eFfoBo nextui-c-eFfoBo-ihQOVev-css"
+        >
+          <p
+            class="nextui-c-PJLV nextui-c-PJLV-ijnlmIz-css"
+          >
+            Desarrollo de producto crédito hipotecario para el sector bancario. Desarrollando nuevos componentes para arquitectura de microservicios y mantener la integración con el monolito para la continuidad de la operación. Apoyando a la organización en la transformación digital y metodologías ágiles.
+          </p>
+          <span
+            aria-hidden="true"
+            class="nextui-c-gNVTSf nextui-c-gNVTSf-hakyQ-inline-false nextui-c-gNVTSf-igvLppd-css"
+          />
+          <p
+            class="nextui-c-PJLV nextui-c-PJLV-ijnlmIz-css"
+          >
+            Tecnologías: java, spring boot, spring cloud, angular, nodejs, jenkins.
+          </p>
+        </div>
+        <div
+          class="nextui-c-bZLhCa nextui-c-bZLhCa-qCmpO-color-default nextui-c-bZLhCa-iiMwZzC-css"
+          role="separator"
+        />
+        <div
+          class="nextui-c-cakKrd"
+        >
+          <div
+            class="nextui-c-dfbgCO nextui-c-dfbgCO-fGHEql-fluid-true nextui-c-dfbgCO-iipPaye-css"
+          >
+            <h4
+              class="nextui-c-PJLV nextui-c-PJLV-ijyaHDY-css"
+            >
+              Senior Developer
+            </h4>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="nextui-c-kRHeuF nextui-c-kRHeuF-idJnZoH-css nextui-grid-item xs sm"
+    >
+      <div
+        class="nextui-c-BDLTQ nextui-c-jMTBsW nextui-c-PJLV nextui-c-BDLTQ-kUADSW-variant-bordered nextui-c-BDLTQ-fmlsco-borderWeight-light nextui-c-BDLTQ-cuwTXc-disableAnimation-false nextui-c-PJLV-gulvcB-isFocusVisible-false nextui-c-BDLTQ-iihsuwN-css"
+        role="section"
+        tabindex="-1"
+      >
+        <div
+          class="nextui-c-jxECYO"
+        >
+          <div
+            class="nextui-c-kRHeuF nextui-c-kRHeuF-ijMQPzd-css nextui-grid-item xs"
+          >
+            <div
+              class="nextui-c-dfbgCO nextui-c-dfbgCO-fGHEql-fluid-true nextui-c-dfbgCO-idIWWzx-css"
+            >
+              <h4
+                class="nextui-c-PJLV nextui-c-PJLV-ibMlwRW-css"
+              >
+                LOREBI
+              </h4>
+            </div>
+          </div>
+          <div
+            class="nextui-c-kRHeuF nextui-c-kRHeuF-ikskwLs-css nextui-grid-item xs"
+          >
+            <div
+              class="nextui-c-dfbgCO nextui-c-dfbgCO-fGHEql-fluid-true nextui-c-dfbgCO-idIWWzx-css"
+            >
+              <small
+                class="nextui-c-PJLV nextui-c-PJLV-ijnlmIz-css"
+              >
+                Ene 15 - Abr 16
+              </small>
+            </div>
+          </div>
+        </div>
+        <div
+          class="nextui-c-bZLhCa nextui-c-bZLhCa-qCmpO-color-default nextui-c-bZLhCa-iiMwZzC-css"
+          role="separator"
+        />
+        <div
+          class="nextui-c-eFfoBo nextui-c-eFfoBo-ihQOVev-css"
+        >
+          <p
+            class="nextui-c-PJLV nextui-c-PJLV-ijnlmIz-css"
+          >
+            Desarrollo de una plataforma de wifi gratuita que requiere que la persona observe publicidad segmentada antes de permitirle navegar por un tiempo determinado. Mi función era el desarrollo de toda la aplicación utilizando java y framework Spring mvc. Desarrollo de un dashboard que donde se visualicen las métricas y comportamiento de los usuarios del wifi.
+          </p>
+          <span
+            aria-hidden="true"
+            class="nextui-c-gNVTSf nextui-c-gNVTSf-hakyQ-inline-false nextui-c-gNVTSf-igvLppd-css"
+          />
+          <p
+            class="nextui-c-PJLV nextui-c-PJLV-ijnlmIz-css"
+          >
+            Tecnologías: java , spring mvc, jpa, hibernate, glassfish, maven, svn.
+          </p>
+        </div>
+        <div
+          class="nextui-c-bZLhCa nextui-c-bZLhCa-qCmpO-color-default nextui-c-bZLhCa-iiMwZzC-css"
+          role="separator"
+        />
+        <div
+          class="nextui-c-cakKrd"
+        >
+          <div
+            class="nextui-c-dfbgCO nextui-c-dfbgCO-fGHEql-fluid-true nextui-c-dfbgCO-iipPaye-css"
+          >
+            <h4
+              class="nextui-c-PJLV nextui-c-PJLV-ijyaHDY-css"
+            >
+              Especialista IT
+            </h4>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="nextui-c-kRHeuF nextui-c-kRHeuF-idJnZoH-css nextui-grid-item xs sm"
+    >
+      <div
+        class="nextui-c-BDLTQ nextui-c-jMTBsW nextui-c-PJLV nextui-c-BDLTQ-kUADSW-variant-bordered nextui-c-BDLTQ-fmlsco-borderWeight-light nextui-c-BDLTQ-cuwTXc-disableAnimation-false nextui-c-PJLV-gulvcB-isFocusVisible-false nextui-c-BDLTQ-iihsuwN-css"
+        role="section"
+        tabindex="-1"
+      >
+        <div
+          class="nextui-c-jxECYO"
+        >
+          <div
+            class="nextui-c-kRHeuF nextui-c-kRHeuF-ijMQPzd-css nextui-grid-item xs"
+          >
+            <div
+              class="nextui-c-dfbgCO nextui-c-dfbgCO-fGHEql-fluid-true nextui-c-dfbgCO-idIWWzx-css"
+            >
+              <h4
+                class="nextui-c-PJLV nextui-c-PJLV-ibMlwRW-css"
+              >
+                Corp. Wimac Systems
+              </h4>
+            </div>
+          </div>
+          <div
+            class="nextui-c-kRHeuF nextui-c-kRHeuF-ikskwLs-css nextui-grid-item xs"
+          >
+            <div
+              class="nextui-c-dfbgCO nextui-c-dfbgCO-fGHEql-fluid-true nextui-c-dfbgCO-idIWWzx-css"
+            >
+              <small
+                class="nextui-c-PJLV nextui-c-PJLV-ijnlmIz-css"
+              >
+                Nov 13 - May 14
+              </small>
+            </div>
+          </div>
+        </div>
+        <div
+          class="nextui-c-bZLhCa nextui-c-bZLhCa-qCmpO-color-default nextui-c-bZLhCa-iiMwZzC-css"
+          role="separator"
+        />
+        <div
+          class="nextui-c-eFfoBo nextui-c-eFfoBo-ihQOVev-css"
+        >
+          <p
+            class="nextui-c-PJLV nextui-c-PJLV-ijnlmIz-css"
+          >
+            Proyecto sobre reclamos y fallas masivas. Telecomunicaciones Movilnet C.A. Desarrollo de módulo para registrar los reclamos de los clientes y generar estadísticas y reportes que ayudaran a la gerencia del negocio a tomar decisiones con respecto a las fallas. Mi función era el desarrollo de la capa vista y controlador del sistema.
+          </p>
+          <span
+            aria-hidden="true"
+            class="nextui-c-gNVTSf nextui-c-gNVTSf-hakyQ-inline-false nextui-c-gNVTSf-igvLppd-css"
+          />
+          <p
+            class="nextui-c-PJLV nextui-c-PJLV-ijnlmIz-css"
+          >
+            Tecnologías: java, primefaces, ejb, Jboss, python, eclipseIDE, postgresql.
+          </p>
+        </div>
+        <div
+          class="nextui-c-bZLhCa nextui-c-bZLhCa-qCmpO-color-default nextui-c-bZLhCa-iiMwZzC-css"
+          role="separator"
+        />
+        <div
+          class="nextui-c-cakKrd"
+        >
+          <div
+            class="nextui-c-dfbgCO nextui-c-dfbgCO-fGHEql-fluid-true nextui-c-dfbgCO-iipPaye-css"
+          >
+            <h4
+              class="nextui-c-PJLV nextui-c-PJLV-ijyaHDY-css"
+            >
+              Especialista IT
+            </h4>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="nextui-c-kRHeuF nextui-c-kRHeuF-idJnZoH-css nextui-grid-item xs sm"
+    >
+      <div
+        class="nextui-c-BDLTQ nextui-c-jMTBsW nextui-c-PJLV nextui-c-BDLTQ-kUADSW-variant-bordered nextui-c-BDLTQ-fmlsco-borderWeight-light nextui-c-BDLTQ-cuwTXc-disableAnimation-false nextui-c-PJLV-gulvcB-isFocusVisible-false nextui-c-BDLTQ-iihsuwN-css"
+        role="section"
+        tabindex="-1"
+      >
+        <div
+          class="nextui-c-jxECYO"
+        >
+          <div
+            class="nextui-c-kRHeuF nextui-c-kRHeuF-ijMQPzd-css nextui-grid-item xs"
+          >
+            <div
+              class="nextui-c-dfbgCO nextui-c-dfbgCO-fGHEql-fluid-true nextui-c-dfbgCO-idIWWzx-css"
+            >
+              <h4
+                class="nextui-c-PJLV nextui-c-PJLV-ibMlwRW-css"
+              >
+                Eliexir Cm Computer
+              </h4>
+            </div>
+          </div>
+          <div
+            class="nextui-c-kRHeuF nextui-c-kRHeuF-ikskwLs-css nextui-grid-item xs"
+          >
+            <div
+              class="nextui-c-dfbgCO nextui-c-dfbgCO-fGHEql-fluid-true nextui-c-dfbgCO-idIWWzx-css"
+            >
+              <small
+                class="nextui-c-PJLV nextui-c-PJLV-ijnlmIz-css"
+              >
+                Nov 12 - Nov 13
+              </small>
+            </div>
+          </div>
+        </div>
+        <div
+          class="nextui-c-bZLhCa nextui-c-bZLhCa-qCmpO-color-default nextui-c-bZLhCa-iiMwZzC-css"
+          role="separator"
+        />
+        <div
+          class="nextui-c-eFfoBo nextui-c-eFfoBo-ihQOVev-css"
+        >
+          <p
+            class="nextui-c-PJLV nextui-c-PJLV-ijnlmIz-css"
+          >
+            Proyecto de Voz módulo para CVSC+. Telefónica Venezuela. Desarrollo de módulo para asociar números telefónicos con la finalidad de lograr la comunicación directa con planes y condiciones especiales. Mi función era el desarrollo de webservice que utilizaran los stored procedured corespondientes para la activación y desactivación de planes y servicios en el módulo de VPN de voz.
+          </p>
+          <span
+            aria-hidden="true"
+            class="nextui-c-gNVTSf nextui-c-gNVTSf-hakyQ-inline-false nextui-c-gNVTSf-igvLppd-css"
+          />
+          <p
+            class="nextui-c-PJLV nextui-c-PJLV-ijnlmIz-css"
+          >
+            Tecnologías: java, weblogic 8.5, web services, eclipse IDE, svn, maven soap UI.
+          </p>
+        </div>
+        <div
+          class="nextui-c-bZLhCa nextui-c-bZLhCa-qCmpO-color-default nextui-c-bZLhCa-iiMwZzC-css"
+          role="separator"
+        />
+        <div
+          class="nextui-c-cakKrd"
+        >
+          <div
+            class="nextui-c-dfbgCO nextui-c-dfbgCO-fGHEql-fluid-true nextui-c-dfbgCO-iipPaye-css"
+          >
+            <h4
+              class="nextui-c-PJLV nextui-c-PJLV-ijyaHDY-css"
+            >
+              Desarrollador Java
+            </h4>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

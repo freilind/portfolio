@@ -1,0 +1,240 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Courses snapshot renders courses unchanged 1`] = `
+<div>
+  <div
+    class="nextui-c-kRHeuF nextui-c-kRHeuF-idYPjDv-css nextui-grid-item sm"
+  >
+    <a
+      class="nextui-c-dIWzTP nextui-c-PJLV nextui-c-dIWzTP-hfnKRU-color-default nextui-c-dIWzTP-isWIbj-animated-true nextui-c-PJLV-gulvcB-isFocusVisible-false nextui-c-dIWzTP-icTVmtU-css nextui-link"
+      href="/images/courses/cert-java8.jpg"
+      target="_blank"
+    >
+      <div
+        class="nextui-c-iVzbCs nextui-c-iVzbCs-bDGmTT-ready-true nextui-c-iVzbCs-ifVYFGe-css nextui-image-container nextui-image--loading"
+        data-state="loading"
+      >
+        <div
+          class="nextui-c-FIiRH nextui-c-FIiRH-ibDGmTT-css nextui-image-skeleton"
+        />
+        <img
+          alt="certificate-java8"
+          class="nextui-c-kbhVdb nextui-c-kbhVdb-iUwpmy-css nextui-image"
+          data-state="loading"
+          height="220"
+          src="/images/courses/cert-java8.jpg"
+          width="310"
+        />
+      </div>
+    </a>
+  </div>
+  <div
+    class="nextui-c-kRHeuF nextui-c-kRHeuF-idYPjDv-css nextui-grid-item sm"
+  >
+    <a
+      class="nextui-c-dIWzTP nextui-c-PJLV nextui-c-dIWzTP-hfnKRU-color-default nextui-c-dIWzTP-isWIbj-animated-true nextui-c-PJLV-gulvcB-isFocusVisible-false nextui-c-dIWzTP-icTVmtU-css nextui-link"
+      href="https://udemy-certificate.s3.amazonaws.com/pdf/UC-625fca48-56d0-499a-abd0-2e3299aeb3a0.pdf"
+      target="_blank"
+    >
+      <div
+        class="nextui-c-iVzbCs nextui-c-iVzbCs-bDGmTT-ready-true nextui-c-iVzbCs-ifVYFGe-css nextui-image-container nextui-image--loading"
+        data-state="loading"
+      >
+        <div
+          class="nextui-c-FIiRH nextui-c-FIiRH-ibDGmTT-css nextui-image-skeleton"
+        />
+        <img
+          alt="next-frmwk-prod"
+          class="nextui-c-kbhVdb nextui-c-kbhVdb-iUwpmy-css nextui-image"
+          data-state="loading"
+          height="220"
+          src="/images/courses/next-frmwk-prod.jpeg"
+          width="310"
+        />
+      </div>
+    </a>
+  </div>
+  <div
+    class="nextui-c-kRHeuF nextui-c-kRHeuF-idYPjDv-css nextui-grid-item sm"
+  >
+    <a
+      class="nextui-c-dIWzTP nextui-c-PJLV nextui-c-dIWzTP-hfnKRU-color-default nextui-c-dIWzTP-isWIbj-animated-true nextui-c-PJLV-gulvcB-isFocusVisible-false nextui-c-dIWzTP-icTVmtU-css nextui-link"
+      href="https://udemy-certificate.s3.amazonaws.com/pdf/UC-ea89ede5-8ad5-4182-bc23-d467a82f7ab4.pdf"
+      target="_blank"
+    >
+      <div
+        class="nextui-c-iVzbCs nextui-c-iVzbCs-bDGmTT-ready-true nextui-c-iVzbCs-ifVYFGe-css nextui-image-container nextui-image--loading"
+        data-state="loading"
+      >
+        <div
+          class="nextui-c-FIiRH nextui-c-FIiRH-ibDGmTT-css nextui-image-skeleton"
+        />
+        <img
+          alt="next-react-guide"
+          class="nextui-c-kbhVdb nextui-c-kbhVdb-iUwpmy-css nextui-image"
+          data-state="loading"
+          height="220"
+          src="/images/courses/next-react-guide.jpeg"
+          width="310"
+        />
+      </div>
+    </a>
+  </div>
+  <div
+    class="nextui-c-kRHeuF nextui-c-kRHeuF-idYPjDv-css nextui-grid-item sm"
+  >
+    <a
+      class="nextui-c-dIWzTP nextui-c-PJLV nextui-c-dIWzTP-hfnKRU-color-default nextui-c-dIWzTP-isWIbj-animated-true nextui-c-PJLV-gulvcB-isFocusVisible-false nextui-c-dIWzTP-icTVmtU-css nextui-link"
+      href="https://udemy-certificate.s3.amazonaws.com/pdf/UC-fa37664f-a127-40f3-b590-64893ff75dee.pdf"
+      target="_blank"
+    >
+      <div
+        class="nextui-c-iVzbCs nextui-c-iVzbCs-bDGmTT-ready-true nextui-c-iVzbCs-ifVYFGe-css nextui-image-container nextui-image--loading"
+        data-state="loading"
+      >
+        <div
+          class="nextui-c-FIiRH nextui-c-FIiRH-ibDGmTT-css nextui-image-skeleton"
+        />
+        <img
+          alt="web-bootcamp2022"
+          class="nextui-c-kbhVdb nextui-c-kbhVdb-iUwpmy-css nextui-image"
+          data-state="loading"
+          height="220"
+          src="/images/courses/web-bootcamp2022.jpeg"
+          width="310"
+        />
+      </div>
+    </a>
+  </div>
+  <div
+    class="nextui-c-kRHeuF nextui-c-kRHeuF-idYPjDv-css nextui-grid-item sm"
+  >
+    <a
+      class="nextui-c-dIWzTP nextui-c-PJLV nextui-c-dIWzTP-hfnKRU-color-default nextui-c-dIWzTP-isWIbj-animated-true nextui-c-PJLV-gulvcB-isFocusVisible-false nextui-c-dIWzTP-icTVmtU-css nextui-link"
+      href="https://udemy-certificate.s3.amazonaws.com/pdf/UC-2486bc7f-f452-4c96-8f0d-9c9e229a7223.pdf"
+      target="_blank"
+    >
+      <div
+        class="nextui-c-iVzbCs nextui-c-iVzbCs-bDGmTT-ready-true nextui-c-iVzbCs-ifVYFGe-css nextui-image-container nextui-image--loading"
+        data-state="loading"
+      >
+        <div
+          class="nextui-c-FIiRH nextui-c-FIiRH-ibDGmTT-css nextui-image-skeleton"
+        />
+        <img
+          alt="master-cqrs"
+          class="nextui-c-kbhVdb nextui-c-kbhVdb-iUwpmy-css nextui-image"
+          data-state="loading"
+          height="220"
+          src="/images/courses/master-cqrs.jpeg"
+          width="310"
+        />
+      </div>
+    </a>
+  </div>
+  <div
+    class="nextui-c-kRHeuF nextui-c-kRHeuF-idYPjDv-css nextui-grid-item sm"
+  >
+    <a
+      class="nextui-c-dIWzTP nextui-c-PJLV nextui-c-dIWzTP-hfnKRU-color-default nextui-c-dIWzTP-isWIbj-animated-true nextui-c-PJLV-gulvcB-isFocusVisible-false nextui-c-dIWzTP-icTVmtU-css nextui-link"
+      href="https://udemy-certificate.s3.amazonaws.com/pdf/UC-5b81bda1-1845-4530-92df-681e05705f46.pdf"
+      target="_blank"
+    >
+      <div
+        class="nextui-c-iVzbCs nextui-c-iVzbCs-bDGmTT-ready-true nextui-c-iVzbCs-ifVYFGe-css nextui-image-container nextui-image--loading"
+        data-state="loading"
+      >
+        <div
+          class="nextui-c-FIiRH nextui-c-FIiRH-ibDGmTT-css nextui-image-skeleton"
+        />
+        <img
+          alt="flutter-complete-guide"
+          class="nextui-c-kbhVdb nextui-c-kbhVdb-iUwpmy-css nextui-image"
+          data-state="loading"
+          height="220"
+          src="/images/courses/flutter-complete-guide.jpeg"
+          width="310"
+        />
+      </div>
+    </a>
+  </div>
+  <div
+    class="nextui-c-kRHeuF nextui-c-kRHeuF-idYPjDv-css nextui-grid-item sm"
+  >
+    <a
+      class="nextui-c-dIWzTP nextui-c-PJLV nextui-c-dIWzTP-hfnKRU-color-default nextui-c-dIWzTP-isWIbj-animated-true nextui-c-PJLV-gulvcB-isFocusVisible-false nextui-c-dIWzTP-icTVmtU-css nextui-link"
+      href="https://udemy-certificate.s3.amazonaws.com/pdf/UC-07aabcbd-8c1e-461d-9518-e69cbf0d998c.pdf"
+      target="_blank"
+    >
+      <div
+        class="nextui-c-iVzbCs nextui-c-iVzbCs-bDGmTT-ready-true nextui-c-iVzbCs-ifVYFGe-css nextui-image-container nextui-image--loading"
+        data-state="loading"
+      >
+        <div
+          class="nextui-c-FIiRH nextui-c-FIiRH-ibDGmTT-css nextui-image-skeleton"
+        />
+        <img
+          alt="flutter-2021"
+          class="nextui-c-kbhVdb nextui-c-kbhVdb-iUwpmy-css nextui-image"
+          data-state="loading"
+          height="220"
+          src="/images/courses/flutter-2021.jpeg"
+          width="310"
+        />
+      </div>
+    </a>
+  </div>
+  <div
+    class="nextui-c-kRHeuF nextui-c-kRHeuF-idYPjDv-css nextui-grid-item sm"
+  >
+    <a
+      class="nextui-c-dIWzTP nextui-c-PJLV nextui-c-dIWzTP-hfnKRU-color-default nextui-c-dIWzTP-isWIbj-animated-true nextui-c-PJLV-gulvcB-isFocusVisible-false nextui-c-dIWzTP-icTVmtU-css nextui-link"
+      href="https://udemy-certificate.s3.amazonaws.com/pdf/UC-d4ef5915-4608-46ba-bfd4-f7baf95d2346.pdf"
+      target="_blank"
+    >
+      <div
+        class="nextui-c-iVzbCs nextui-c-iVzbCs-bDGmTT-ready-true nextui-c-iVzbCs-ifVYFGe-css nextui-image-container nextui-image--loading"
+        data-state="loading"
+      >
+        <div
+          class="nextui-c-FIiRH nextui-c-FIiRH-ibDGmTT-css nextui-image-skeleton"
+        />
+        <img
+          alt="docker-guide"
+          class="nextui-c-kbhVdb nextui-c-kbhVdb-iUwpmy-css nextui-image"
+          data-state="loading"
+          height="220"
+          src="/images/courses/docker-guide.jpeg"
+          width="310"
+        />
+      </div>
+    </a>
+  </div>
+  <div
+    class="nextui-c-kRHeuF nextui-c-kRHeuF-idYPjDv-css nextui-grid-item sm"
+  >
+    <a
+      class="nextui-c-dIWzTP nextui-c-PJLV nextui-c-dIWzTP-hfnKRU-color-default nextui-c-dIWzTP-isWIbj-animated-true nextui-c-PJLV-gulvcB-isFocusVisible-false nextui-c-dIWzTP-icTVmtU-css nextui-link"
+      href="https://udemy-certificate.s3.amazonaws.com/pdf/UC-bca7b665-586d-4d9c-8105-d0546e5a3dad.pdf"
+      target="_blank"
+    >
+      <div
+        class="nextui-c-iVzbCs nextui-c-iVzbCs-bDGmTT-ready-true nextui-c-iVzbCs-ifVYFGe-css nextui-image-container nextui-image--loading"
+        data-state="loading"
+      >
+        <div
+          class="nextui-c-FIiRH nextui-c-FIiRH-ibDGmTT-css nextui-image-skeleton"
+        />
+        <img
+          alt="kafka"
+          class="nextui-c-kbhVdb nextui-c-kbhVdb-iUwpmy-css nextui-image"
+          data-state="loading"
+          height="220"
+          src="/images/courses/kafka.jpeg"
+          width="310"
+        />
+      </div>
+    </a>
+  </div>
+</div>
+`;

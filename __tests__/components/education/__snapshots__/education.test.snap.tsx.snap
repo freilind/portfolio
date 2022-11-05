@@ -1,0 +1,174 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Education snapshot renders education unchanged 1`] = `
+<div>
+  <div
+    class="nextui-c-kRHeuF nextui-c-kRHeuF-iDbpjR-css nextui-grid-item xs nextui-grid-container"
+  >
+    <div
+      class="nextui-c-hWZRae nextui-c-hWZRae-gikTHb-shadow-true nextui-c-hWZRae-kUADSW-bordered-true nextui-c-hWZRae-bzEnZV-borderWeight-normal nextui-c-hWZRae-iPJLV-css nextui-table-container"
+    >
+      <table
+        aria-describedby=""
+        aria-label="Table of education"
+        class="nextui-c-cuoPNV nextui-c-cuoPNV-fyxmJu-color-primary nextui-c-cuoPNV-fPgLZC-lineWeight-light nextui-c-cuoPNV-ixxsp-css nextui-table"
+        id="react-aria9466982254-2"
+        role="grid"
+        tabindex="0"
+      >
+        <thead
+          class="nextui-c-PJLV nextui-table-row-group"
+          role="rowgroup"
+        >
+          <tr
+            class="nextui-c-fRbcxI nextui-table-header-row"
+            role="row"
+          >
+            <th
+              aria-labelledby="column-organization"
+              class="nextui-c-cpCRyO nextui-c-PJLV nextui-c-PJLV-gulvcB-isFocusVisible-false nextui-table-column-header"
+              data-key="organization"
+              id="react-aria9466982254-2-organization"
+              role="columnheader"
+              tabindex="-1"
+            >
+              ORGANIZACIÓN
+            </th>
+            <th
+              aria-labelledby="column-description"
+              class="nextui-c-cpCRyO nextui-c-PJLV nextui-c-PJLV-gulvcB-isFocusVisible-false nextui-table-column-header"
+              data-key="description"
+              id="react-aria9466982254-2-description"
+              role="columnheader"
+              tabindex="-1"
+            >
+              DESCRIPCIÓN
+            </th>
+            <th
+              aria-labelledby="column-date"
+              class="nextui-c-cpCRyO nextui-c-PJLV nextui-c-PJLV-gulvcB-isFocusVisible-false nextui-table-column-header"
+              data-key="date"
+              id="react-aria9466982254-2-date"
+              role="columnheader"
+              tabindex="-1"
+            >
+              FECHA
+            </th>
+          </tr>
+          <tr
+            aria-hidden="true"
+            class="nextui-c-gNVTSf nextui-c-gNVTSf-hakyQ-inline-false nextui-c-gNVTSf-icCJVMZ-css nextui-table-hidden-row"
+          />
+        </thead>
+        <tbody
+          class="nextui-c-PJLV nextui-c-PJLV-iccTTUn-css nextui-table-body"
+          role="rowgroup"
+        >
+          <tr
+            aria-hidden="false"
+            aria-labelledby="react-aria9466982254-2-1-organization"
+            class="nextui-c-bUbfzy nextui-c-PJLV nextui-c-PJLV-gulvcB-isFocusVisible-false nextui-table-row"
+            data-key="1"
+            role="row"
+            tabindex="-1"
+          >
+            <td
+              class="nextui-c-PJLV nextui-c-coKxkr nextui-c-PJLV-gulvcB-isFocusVisible-false nextui-table-cell"
+              data-key="11organization"
+              id="react-aria9466982254-2-1-organization"
+              role="rowheader"
+              tabindex="-1"
+            >
+              ORACLE
+            </td>
+            <td
+              class="nextui-c-PJLV nextui-c-coKxkr nextui-c-PJLV-gulvcB-isFocusVisible-false nextui-table-cell"
+              data-key="11description"
+              role="gridcell"
+              tabindex="-1"
+            >
+              Oracle Certified Associate, Java SE 8 Programmer
+            </td>
+            <td
+              class="nextui-c-PJLV nextui-c-coKxkr nextui-c-PJLV-gulvcB-isFocusVisible-false nextui-table-cell"
+              data-key="11date"
+              role="gridcell"
+              tabindex="-1"
+            >
+              2019
+            </td>
+          </tr>
+          <tr
+            aria-hidden="false"
+            aria-labelledby="react-aria9466982254-2-2-organization"
+            class="nextui-c-bUbfzy nextui-c-PJLV nextui-c-PJLV-gulvcB-isFocusVisible-false nextui-table-row"
+            data-key="2"
+            role="row"
+            tabindex="-1"
+          >
+            <td
+              class="nextui-c-PJLV nextui-c-coKxkr nextui-c-PJLV-gulvcB-isFocusVisible-false nextui-table-cell"
+              data-key="22organization"
+              id="react-aria9466982254-2-2-organization"
+              role="rowheader"
+              tabindex="-1"
+            >
+              UNITEC
+            </td>
+            <td
+              class="nextui-c-PJLV nextui-c-coKxkr nextui-c-PJLV-gulvcB-isFocusVisible-false nextui-table-cell"
+              data-key="22description"
+              role="gridcell"
+              tabindex="-1"
+            >
+              Diplomado BPM-SOA
+            </td>
+            <td
+              class="nextui-c-PJLV nextui-c-coKxkr nextui-c-PJLV-gulvcB-isFocusVisible-false nextui-table-cell"
+              data-key="22date"
+              role="gridcell"
+              tabindex="-1"
+            >
+              2016
+            </td>
+          </tr>
+          <tr
+            aria-hidden="false"
+            aria-labelledby="react-aria9466982254-2-3-organization"
+            class="nextui-c-bUbfzy nextui-c-PJLV nextui-c-PJLV-gulvcB-isFocusVisible-false nextui-table-row"
+            data-key="3"
+            role="row"
+            tabindex="-1"
+          >
+            <td
+              class="nextui-c-PJLV nextui-c-coKxkr nextui-c-PJLV-gulvcB-isFocusVisible-false nextui-table-cell"
+              data-key="33organization"
+              id="react-aria9466982254-2-3-organization"
+              role="rowheader"
+              tabindex="-1"
+            >
+              IUGT
+            </td>
+            <td
+              class="nextui-c-PJLV nextui-c-coKxkr nextui-c-PJLV-gulvcB-isFocusVisible-false nextui-table-cell"
+              data-key="33description"
+              role="gridcell"
+              tabindex="-1"
+            >
+              Técnico Superior Universitario Informática
+            </td>
+            <td
+              class="nextui-c-PJLV nextui-c-coKxkr nextui-c-PJLV-gulvcB-isFocusVisible-false nextui-table-cell"
+              data-key="33date"
+              role="gridcell"
+              tabindex="-1"
+            >
+              2012
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+`;
