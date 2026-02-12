@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --color-primary-500: #3b82f6;
+  --color-primary-600: #2563eb;
+  --color-primary-700: #1d4ed8;
+  --color-secondary-600: #9333ea;
+}
+
+@layer base {
+  * {
+    @apply transition-colors duration-300;
+  }
+
+  body {
+    @apply font-sans antialiased;
+    @apply bg-white dark:bg-gray-900;
+    @apply text-gray-900 dark:text-gray-100;
+  }
+}
+
+@layer components {
+  .section-container {
+    @apply w-full max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+
+  .grid-layout {
+    @apply grid gap-6;
+    @apply grid-cols-1;
+    @apply md:grid-cols-2;
+    @apply lg:grid-cols-12;
+  }
+
+  .card {
+    @apply bg-white dark:bg-gray-800;
+    @apply border border-gray-200 dark:border-gray-700;
+    @apply rounded-lg shadow-md;
+    @apply p-6;
+    @apply hover:shadow-xl;
+  }
+
+  .btn-primary {
+    @apply px-6 py-3 rounded-lg font-medium;
+    /* Esto funcionará ahora gracias al bloque @theme de arriba */
+    @apply bg-primary-600 hover:bg-primary-700;
+    @apply text-white;
+    @apply focus:outline-none focus:ring-2 focus:ring-primary-500 focus:ring-offset-2;
+  }
+
+  .btn-secondary {
+    @apply px-6 py-3 rounded-lg font-medium;
+    @apply bg-gray-200 hover:bg-gray-300;
+    @apply dark:bg-gray-700 dark:hover:bg-gray-600;
+    @apply text-gray-900 dark:text-gray-100;
+    @apply focus:outline-none focus:ring-2 focus:ring-gray-500 focus:ring-offset-2;
+  }
+}
+
+@layer utilities {
+  .text-gradient {
+    @apply bg-clip-text text-transparent;
+    @apply bg-gradient-to-r from-primary-600 to-secondary-600;
+  }
+}

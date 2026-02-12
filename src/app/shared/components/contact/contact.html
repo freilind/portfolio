@@ -1,4 +1,4 @@
-<section id="contact" class="py-20 bg-gray-50 dark:bg-gray-800/50">
+<section id="contact" class="py-20">
   <div class="section-container">
     <h2 class="text-3xl md:text-4xl font-bold text-center mb-12">
       <span class="text-gradient">Contáctame</span>
@@ -21,13 +21,17 @@
           <div class="flex items-center gap-4 p-4 bg-white dark:bg-gray-800 rounded-lg">
             <div class="w-12 h-12 bg-primary-100 dark:bg-primary-900/30 rounded-full flex items-center justify-center">
               <svg class="w-6 h-6 text-primary-600 dark:text-primary-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                <path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-11 19h-3v-11h3v11zm-1.5-12.268c-.966 0-1.75-.79-1.75-1.764s.784-1.764 1.75-1.764 1.75.79 1.75 1.764-.783 1.764-1.75 1.764zm13.5 12.268h-3v-5.604c0-3.368-4-3.113-4 0v5.604h-3v-11h3v1.765c1.396-2.586 7-2.777 7 2.476v6.759z"/>
               </svg>
             </div>
             <div>
-              <p class="text-sm text-gray-600 dark:text-gray-400">Email</p>
-              <a href="mailto:tu@email.com" class="font-semibold text-gray-900 dark:text-white hover:text-primary-600 dark:hover:text-primary-400">
-                tu@email.com
+              <p class="text-sm text-gray-600 dark:text-gray-400">Linkedin</p>
+              <a href="https://www.linkedin.com/in/freilind/"
+                 target="_blank"
+                 rel="noopener noreferrer"
+                 aria-label="LinkedIn"
+                 class="social-link font-semibold text-gray-900 dark:text-white hover:text-primary-600 dark:hover:text-primary-400">
+                freilind
               </a>
             </div>
           </div>
@@ -35,13 +39,17 @@
           <div class="flex items-center gap-4 p-4 bg-white dark:bg-gray-800 rounded-lg">
             <div class="w-12 h-12 bg-primary-100 dark:bg-primary-900/30 rounded-full flex items-center justify-center">
               <svg class="w-6 h-6 text-primary-600 dark:text-primary-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"/>
               </svg>
             </div>
             <div>
-              <p class="text-sm text-gray-600 dark:text-gray-400">Teléfono</p>
-              <a href="tel:+1234567890" class="font-semibold text-gray-900 dark:text-white hover:text-primary-600 dark:hover:text-primary-400">
-                +1 (234) 567-890
+              <p class="text-sm text-gray-600 dark:text-gray-400">Github</p>
+              <a href="https://github.com/freilind"
+                 target="_blank"
+                 rel="noopener noreferrer"
+                 aria-label="GitHub"
+                 class="font-semibold text-gray-900 dark:text-white hover:text-primary-600 dark:hover:text-primary-400">
+                freilind
               </a>
             </div>
           </div>
@@ -56,7 +64,7 @@
             <div>
               <p class="text-sm text-gray-600 dark:text-gray-400">Ubicación</p>
               <p class="font-semibold text-gray-900 dark:text-white">
-                Ciudad, País
+                Caracas, Venezuela / Santiago, Chile.
               </p>
             </div>
           </div>
@@ -64,76 +72,19 @@
       </div>
 
       <!-- Contact Form -->
-      <div class="lg:col-span-7">
-        <form [formGroup]="contactForm" (ngSubmit)="onSubmit()" class="card space-y-6">
-          <div>
-            <label for="name" class="block text-sm font-medium mb-2 text-gray-900 dark:text-white">
-              Nombre
-            </label>
-            <input
-              id="name"
-              type="text"
-              formControlName="name"
-              class="w-full px-4 py-3 rounded-lg border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-700 text-gray-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-primary-500"
-              placeholder="Tu nombre"
-            />
-            @if (contactForm.controls.name.invalid && contactForm.controls.name.touched) {
-              <p class="mt-1 text-sm text-red-600 dark:text-red-400">
-                El nombre es requerido
-              </p>
-            }
-          </div>
-
-          <div>
-            <label for="email" class="block text-sm font-medium mb-2 text-gray-900 dark:text-white">
-              Email
-            </label>
-            <input
-              id="email"
-              type="email"
-              formControlName="email"
-              class="w-full px-4 py-3 rounded-lg border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-700 text-gray-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-primary-500"
-              placeholder="tu@email.com"
-            />
-            @if (contactForm.controls.email.invalid && contactForm.controls.email.touched) {
-              <p class="mt-1 text-sm text-red-600 dark:text-red-400">
-                Email válido es requerido
-              </p>
-            }
-          </div>
-
-          <div>
-            <label for="message" class="block text-sm font-medium mb-2 text-gray-900 dark:text-white">
-              Mensaje
-            </label>
-            <textarea
-              id="message"
-              formControlName="message"
-              rows="5"
-              class="w-full px-4 py-3 rounded-lg border border-gray-300 dark:border-gray-600 bg-white dark:bg-gray-700 text-gray-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-primary-500"
-              placeholder="Tu mensaje..."
-            ></textarea>
-            @if (contactForm.controls.message.invalid && contactForm.controls.message.touched) {
-              <p class="mt-1 text-sm text-red-600 dark:text-red-400">
-                El mensaje es requerido
-              </p>
-            }
-          </div>
-
-          <button
-            type="submit"
-            [disabled]="contactForm.invalid"
-            class="w-full btn-primary disabled:opacity-50 disabled:cursor-not-allowed"
-          >
-            Enviar Mensaje
-          </button>
-
-          @if (submitSuccess()) {
-            <div class="p-4 bg-green-100 dark:bg-green-900/30 text-green-800 dark:text-green-300 rounded-lg">
-              ¡Mensaje enviado exitosamente!
-            </div>
-          }
-        </form>
+      <div class="lg:col-span-7 flex justify-center items-center">
+        <svg class="w-100 h-100 text-gray-50 dark:text-gray-800/50" fill="currentColor">
+            <path d="m149.416,61.02c14.139,0 25.642-11.503 25.642-25.642 0-14.139-11.503-25.642-25.642-25.642s-25.642,11.503-25.642,25.642c0,14.139 11.503,25.642 25.642,25.642z"/>
+            <path d="m108.813,139.678h80.845c5.265,0 9.533-4.268 9.533-9.533v-35.25c0-9.758-6.271-18.41-15.544-21.448l-.043-.014-13.563-2.246c-1.154-0.355-2.388,0.256-2.803,1.395l-15.389,42.224c-0.888,2.436-4.333,2.436-5.221,0l-15.389-42.224c-0.335-0.92-1.203-1.496-2.133-1.496-0.22,0-0.445,0.033-0.667,0.101l-13.566,2.243c-9.349,3.115-15.595,11.782-15.595,21.582v35.133c0.002,5.265 4.27,9.533 9.535,9.533z"/>
+            <path d="m50.188,208.836c14.139,0 25.642-11.503 25.642-25.642s-11.503-25.642-25.642-25.642c-14.139,0-25.642,11.503-25.642,25.642s11.503,25.642 25.642,25.642z"/>
+            <path d="m84.368,221.262l-.043-.014-13.563-2.246c-1.154-0.355-2.388,0.256-2.803,1.395l-15.389,42.224c-0.888,2.436-4.333,2.436-5.221,0l-15.389-42.224c-0.335-0.92-1.203-1.496-2.133-1.496-0.22,0-0.445,0.033-0.667,0.101l-13.566,2.243c-9.348,3.115-15.594,11.782-15.594,21.582v35.133c0,5.265 4.268,9.533 9.533,9.533h80.845c5.265,0 9.533-4.268 9.533-9.533v-35.25c0-9.757-6.27-18.41-15.543-21.448z"/>
+            <path d="m247.277,208.836c14.139,0 25.642-11.503 25.642-25.642s-11.503-25.642-25.642-25.642c-14.139,0-25.642,11.503-25.642,25.642s11.502,25.642 25.642,25.642z"/>
+            <path d="m281.686,221.262l-.043-.014-13.563-2.246c-1.154-0.355-2.388,0.256-2.803,1.395l-15.389,42.224c-0.888,2.436-4.333,2.436-5.221,0l-15.389-42.224c-0.335-0.92-1.203-1.496-2.133-1.496-0.22,0-0.445,0.033-0.667,0.101l-13.566,2.243c-9.349,3.115-15.595,11.782-15.595,21.582v35.133c0,5.265 4.268,9.533 9.533,9.533h80.845c5.265,0 9.533-4.268 9.533-9.533v-35.25c0.002-9.757-6.269-18.41-15.542-21.448z"/>
+            <path d="m157.872,146.894h-16.922v38.55l-39.834,39.834c3.606,4.936 5.679,10.989 5.679,17.431v0.822l42.616-42.617 40.975,40.976c0.205-6.527 2.528-12.62 6.417-17.515l-38.931-38.931v-38.55z"/>
+            <path d="m155.539,71.055c-0.667-0.726-1.641-1.092-2.627-1.092h-7.353c-0.986,0-1.96,0.365-2.627,1.092-1.032,1.124-1.182,2.748-0.449,4.018l3.93,5.925-1.84,15.522 3.623,9.638c0.353,0.969 1.724,0.969 2.078,0l3.623-9.638-1.84-15.522 3.93-5.925c0.733-1.27 0.584-2.894-0.448-4.018z"/>
+            <path d="m56.259,218.901c-0.667-0.726-1.641-1.092-2.627-1.092h-7.353c-0.986,0-1.96,0.365-2.627,1.092-1.032,1.124-1.182,2.748-0.449,4.018l3.93,5.925-1.84,15.521 3.623,9.638c0.353,0.969 1.724,0.969 2.077,0l3.623-9.638-1.84-15.521 3.93-5.925c0.734-1.269 0.585-2.893-0.447-4.018z"/>
+            <path d="m253.577,218.901c-0.667-0.726-1.641-1.092-2.627-1.092h-7.353c-0.986,0-1.96,0.365-2.627,1.092-1.032,1.124-1.182,2.748-0.449,4.018l3.93,5.925-1.84,15.521 3.623,9.638c0.353,0.969 1.724,0.969 2.077,0l3.623-9.638-1.84-15.521 3.93-5.925c0.735-1.269 0.585-2.893-0.447-4.018z"/>
+        </svg>
       </div>
     </div>
   </div>
