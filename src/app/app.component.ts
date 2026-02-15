@@ -15,7 +15,6 @@ import { FooterComponent } from '@shared/components/footer/footer.component';
     HeroComponent,
     AboutComponent,
     ExperienceComponent,
-    ProjectsComponent,
     ContactComponent,
     FooterComponent
   ],
