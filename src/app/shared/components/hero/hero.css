@@ -1,11 +1,9 @@
 @reference "../../../../styles.css"
 
 .social-link {
-  @apply p-2 rounded-lg;
-  @apply text-gray-600 dark:text-gray-400;
-  @apply hover:text-primary-600 dark:hover:text-primary-400;
-  @apply hover:bg-gray-100 dark:hover:bg-gray-800;
-  @apply focus:outline-none focus:ring-2 focus:ring-primary-500;
+  @apply p-2 rounded-lg text-gray-600 dark:text-gray-400
+  hover:text-primary-600 dark:hover:text-primary-400 hover:bg-gray-100 dark:hover:bg-gray-800
+  focus:outline-none focus:ring-2 focus:ring-primary-500;
 }
 
 .certifications {
@@ -13,12 +11,9 @@
 }
 
 .cert-badge {
-  @apply inline-flex items-center justify-center;
-  @apply rounded-xl bg-white/70 dark:bg-gray-900/40;
-  @apply p-2;
-  @apply shadow-sm;
-  @apply transition-transform duration-200 ease-out;
-  @apply focus:outline-none focus:ring-2 focus:ring-primary-500;
+  @apply inline-flex items-center justify-center rounded-xl bg-white/70 dark:bg-gray-900/40
+  p-2 shadow-sm transition-transform duration-200 ease-out
+  focus:outline-none focus:ring-2 focus:ring-primary-500;
 }
 
 .cert-badge:hover {
@@ -27,7 +22,5 @@
 }
 
 .cert-badge__img {
-  @apply block;
-  @apply h-20 w-20 sm:h-24 sm:w-24;
-  @apply object-contain;
+  @apply block h-20 w-20 sm:h-24 sm:w-24 object-contain;
 }
