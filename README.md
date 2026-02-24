@@ -164,6 +164,6 @@ Las contribuciones son bienvenidas. Por favor, abre un issue primero para discut
 
 ## 📧 Contacto
 
-- Email: tu@email.com
-- LinkedIn: [Tu Perfil](https://linkedin.com)
-- GitHub: [Tu Perfil](https://github.com)
+- Email: -
+- LinkedIn: [freilind](https://www.linkedin.com/in/freilind/)
+- GitHub: [freilind](https://github.com/freilind)
