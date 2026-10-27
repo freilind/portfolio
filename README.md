@@ -1,3 +1,4 @@
+
 # Portfolio · Freilin Manzano
 
 Portafolio profesional de **Freilin Manzano**, Backend Engineer especializado en Java, Spring, microservicios y AWS.
@@ -11,20 +12,20 @@ Construido con **Angular 22**, **Tailwind CSS v4** y Signals. Se despliega en **
 - 📱 Mobile-first: espaciado compacto en móvil y elementos decorativos solo en escritorio
 - ♿ Accesible (WCAG AA): skip link, foco visible, ARIA y contraste revisado en ambos temas
 - ⚡ Componentes standalone, `OnPush` y Signals
-- 📨 Formulario de contacto reactivo con validación accesible (Formspree)
+- 🏅 Certificaciones anidadas con diseño estilo diagrama VPC de AWS
 - 🔗 Navegación y redes sociales centralizadas en un único archivo de datos
 
 ## 📦 Stack Tecnológico
 
-| Área | Tecnología |
-|------|------------|
-| Framework | Angular 22 (standalone, signals, control flow nativo) |
-| Lenguaje | TypeScript 6 (modo estricto) |
-| Estilos | Tailwind CSS 4 (`@tailwindcss/postcss`) |
-| Formularios | Reactive Forms |
-| Fuentes | Inter + JetBrains Mono (Google Fonts) |
-| Hosting | GitHub Pages |
-| Runtime | Node.js ≥ 24, npm ≥ 10 |
+| Área        | Tecnología                                            |
+|-------------|-------------------------------------------------------|
+| Framework   | Angular 22 (standalone, signals, control flow nativo) |
+| Lenguaje    | TypeScript 6 (modo estricto)                          |
+| Estilos     | Tailwind CSS 4 (`@tailwindcss/postcss`)               |
+| Formularios | Reactive Forms                                        |
+| Fuentes     | Inter + JetBrains Mono (Google Fonts)                 |
+| Hosting     | GitHub Pages                                          |
+| Runtime     | Node.js ≥ 24, npm ≥ 10                                |
 
 ## 🏗️ Estructura del Proyecto
 
@@ -63,20 +64,21 @@ portfolio/
 └── package.json
 ```
 
+
 Aliases de importación: `@app/*`, `@core/*` y `@shared/*`.
 
 ## 🧩 Secciones
 
-| # | Sección | Ancla | Contenido |
-|---|---------|-------|-----------|
-| — | Header | — | Logo `<freilin />`, navegación, CTA, tema y menú móvil accesible |
-| — | Hero | — | Nombre, rol, chips de tecnologías, CTAs, redes y certificaciones verificables en Credly |
-| 01 | About | `#about` | Biografía, estadísticas y principios de trabajo |
-| 02 | Experience | `#experience` | Timeline con logros y stack por puesto |
-| 03 | Skills | `#skills` | Tecnologías agrupadas (Backend, Cloud & DevOps, Datos, Frontend & prácticas) |
-| 04 | Projects | `#projects` | Proyectos con enlaces al repositorio y a la demo |
-| 05 | Contact | `#contact` | Redes, ubicación y formulario |
-| — | Footer | — | Navegación, redes y copyright |
+| #  | Sección    | Ancla         | Contenido                                                                       |
+|----|------------|---------------|---------------------------------------------------------------------------------|
+| —  | Header     | —             | Logo `<freilin />`, navegación, tema y menú móvil accesible                     |
+| —  | Hero       | —             | Nombre, rol, chips de tecnologías, CTAs, redes y certificaciones (diagrama VPC) |
+| 01 | About      | `#about`      | Biografía, estadísticas y principios de trabajo                                 |
+| 02 | Experience | `#experience` | Timeline con logros y stack por puesto                                          |
+| 03 | Skills     | `#skills`     | Tecnologías agrupadas (Backend, Cloud & DevOps, Datos, Frontend & prácticas)    |
+| 04 | Projects   | `#projects`   | Proyectos con enlaces al repositorio y a la demo                                |
+| 05 | Contact    | `#contact`    | Redes sociales y ubicación                                                      |
+| —  | Footer     | —             | Navegación, redes y copyright                                                   |
 
 ## 🎨 Sistema de Diseño
 
@@ -90,66 +92,71 @@ Todo el sistema está en `src/styles.css`. **No hay `tailwind.config.js`**, porq
 
 ### Clases reutilizables
 
-| Clase | Uso |
-|-------|-----|
-| `.section` | Espaciado vertical responsive de cada sección (`py-12` → `lg:py-28`) |
-| `.section-container` | Contenedor centrado (`max-w-6xl`) |
-| `.section-header` / `.section-eyebrow` / `.section-title` / `.section-lead` | Encabezado estándar: `// 0N · nombre` + título + subtítulo |
-| `.grid-layout` | Grid de 1, 2 o 12 columnas |
-| `.card` | Tarjeta con borde, sombra y elevación al pasar el cursor |
-| `.chip` | Etiqueta monoespaciada para tecnologías |
-| `.btn-primary` / `.btn-secondary` | Botones |
-| `.project-link` | Botón de icono (proyectos, footer) |
-| `.form-input` | Inputs y textarea, con estado `aria-invalid` |
-| `text-gradient` / `bg-grid` | Utilidades (`@utility`) para el texto degradado y el fondo cuadriculado |
+| Clase                                                                       | Uso                                                                     |
+|-----------------------------------------------------------------------------|-------------------------------------------------------------------------|
+| `.section`                                                                  | Espaciado vertical responsive de cada sección (`py-10` → `lg:py-20`)    |
+| `.section-container`                                                        | Contenedor centrado (`max-w-6xl`)                                       |
+| `.section-header` / `.section-eyebrow` / `.section-title` / `.section-lead` | Encabezado estándar: `// 0N · nombre` + título + subtítulo              |
+| `.grid-layout`                                                              | Grid de 1, 2 o 12 columnas                                              |
+| `.card`                                                                     | Tarjeta con borde, sombra y elevación al pasar el cursor                |
+| `.chip`                                                                     | Etiqueta monoespaciada para tecnologías                                 |
+| `.btn-primary` / `.btn-secondary`                                           | Botones                                                                 |
+| `.project-link`                                                             | Botón de icono (proyectos, footer)                                      |
+| `.form-input`                                                               | Inputs y textarea, con estado `aria-invalid`                            |
+| `.aws-region` / `.aws-vpc` / `.aws-az` / `.aws-subnet`                      | Diagrama estilo AWS VPC para certificaciones                            |
+| `text-gradient` / `bg-grid`                                                 | Utilidades (`@utility`) para el texto degradado y el fondo cuadriculado |
 
 Las secciones alternan entre fondo blanco y `bg-slate-50 dark:bg-slate-900/40`.
 
 ### Responsive
 
-| Breakpoint | Comportamiento |
-|------------|----------------|
-| `< 768px` (móvil) | 1 columna, espaciado compacto y menú hamburguesa |
-| `768px – 1023px` (tablet) | 2 columnas y navegación completa |
-| `≥ 1024px` (desktop) | Grid de 12 columnas, ventana de código en el hero y hero a pantalla completa |
+| Breakpoint                | Comportamiento                                   |
+|---------------------------|--------------------------------------------------|
+| `< 768px` (móvil)         | 1 columna, espaciado compacto y menú hamburguesa |
+| `768px – 1023px` (tablet) | 2 columnas y navegación completa                 |
+| `≥ 1024px` (desktop)      | Grid de 12 columnas y hero a pantalla completa   |
 
 ## 🛠️ Instalación y Scripts
 
+
 ```bash
-npm install        # Instalar dependencias
-npm start          # Servidor de desarrollo → http://localhost:4200
-npm run build      # Build de producción
-npm run build:gh   # Build para GitHub Pages (base-href /portfolio/ + 404.html)
-npm test           # Tests unitarios
+npm install # Instalar dependencias npm start # Servidor de desarrollo → [http://localhost:4200](http://localhost:4200) 
+npm run build # Build de producción (base-href /) 
+npm run build:gh # Build para GitHub Pages (base-href /portfolio/ + 404.html) 
+npm test # Tests unitarios
 ```
 
 ## 🚢 Despliegue (GitHub Pages)
 
-1. `npm run build:gh`
-2. Publica `dist/portfolio/browser/`.
+1. Asegúrate de que el repositorio se llama `portfolio` o actualiza `build:gh` en `package.json`.
+2. Configura GitHub Pages en **Settings → Pages** con source `GitHub Actions`.
+3. Haz push a `main` o lanza el workflow `.github/workflows/deploy-pages.yml` manualmente.
 
 Las rutas de assets son **relativas** (`certifications/...`, sin `/` inicial), así respetan el `base-href`.
 
 ## 📝 Personalización
 
-| Qué | Dónde |
-|-----|-------|
-| Nombre, rol, chips, ventana de código y certificaciones | `hero/hero.component.ts` y `hero.html` |
-| Biografía, estadísticas y principios | `about/about.component.ts` y `about.html` |
-| Experiencia laboral | `experience/experience.component.ts` → `experiences` |
-| Stack técnico | `skills/skills.component.ts` → `groups` |
-| Proyectos | `projects/projects.component.ts` → `projects` |
-| Navegación y redes sociales | `core/data/site.ts` → `NAV_LINKS`, `SOCIAL_LINKS` |
-| Formulario de contacto | `contact/contact.component.ts` → `FORM_ENDPOINT` |
-| Colores y fuentes | `src/styles.css` → bloque `@theme` |
-| Título, descripción y Open Graph | `src/index.html` |
+| Qué                                         | Dónde                                                |
+|---------------------------------------------|------------------------------------------------------|
+| Nombre, rol, chips, certificaciones y redes | `hero/hero.component.ts` y `hero.html`               |
+| Biografía, estadísticas y principios        | `about/about.component.ts` y `about.html`            |
+| Experiencia laboral                         | `experience/experience.component.ts` → `experiences` |
+| Stack técnico                               | `skills/skills.component.ts` → `groups`              |
+| Proyectos                                   | `projects/projects.component.ts` → `projects`        |
+| Navegación y redes sociales                 | `core/data/site.ts` → `NAV_LINKS`, `SOCIAL_LINKS`    |
+| Ubicación                                   | `contact/contact.component.ts` → `SOCIAL_LINKS`      |
+| Colores y fuentes                           | `src/styles.css` → bloque `@theme`                   |
+| Título, descripción y Open Graph            | `src/index.html`                                     |
 
-### Formulario de contacto
+### Certificaciones
 
-GitHub Pages no tiene backend, así que el formulario envía los datos a [Formspree](https://formspree.io):
+Las certificaciones están agrupadas en **Availability Zones** (como en un diagrama AWS VPC). Edita `certificationZones` en `hero.component.ts`:
 
-1. Crea un formulario en Formspree.
-2. Reemplaza `TU_ID` en `FORM_ENDPOINT` (`contact.component.ts`).
+```typescript
+ certificationZones: CertificationZone[any] = [ 
+   { label: 'AZ-1 · AWS', certifications: [ /* ... */ ], },
+   { label: 'AZ-2 · IaC & Spring', certifications: [ /* ... */ ], }, ];
+```
 
 ### Añadir una sección nueva
 
@@ -168,6 +175,7 @@ GitHub Pages no tiene backend, así que el formulario envía los datos a [Formsp
 - Errores de formulario con `aria-invalid`, `aria-describedby` y estado `aria-live`
 - Se respeta `prefers-reduced-motion`
 - Contraste AA verificado: `primary-700` en modo claro y `primary-400` en oscuro
+- Diagrama de certificaciones con roles y aria-labels semánticos
 
 Verifica con **Lighthouse** o **axe DevTools** en ambos temas.
 
@@ -180,4 +188,4 @@ Código abierto bajo licencia MIT.
 - LinkedIn: [freilind](https://www.linkedin.com/in/freilind/)
 - GitHub: [freilind](https://github.com/freilind)
 - Credly: [freilin-manzano](https://www.credly.com/users/freilin-manzano)
-```
+

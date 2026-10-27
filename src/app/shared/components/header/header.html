@@ -2,7 +2,7 @@
   <div class="section-container">
     <nav class="flex h-16 items-center justify-between" aria-label="Navegación principal">
       <a href="#" class="font-mono text-lg font-semibold text-slate-900 dark:text-white">
-        <span class="text-primary-700 dark:text-primary-400">&lt;</span>freilin<span class="text-primary-700 dark:text-primary-400"> /&gt;</span>
+        <span class="text-primary-700 dark:text-primary-400">&lt;</span>Freilin<span class="text-primary-700 dark:text-primary-400"> /&gt;</span>
       </a>
 
       <ul class="hidden md:flex items-center gap-8">
@@ -12,8 +12,6 @@
       </ul>
 
       <div class="flex items-center gap-2">
-        <a href="#contact" class="hidden md:inline-flex btn-primary py-2! px-4! text-sm">Hablemos</a>
-
         <button
           type="button"
           (click)="toggleTheme()"
@@ -53,7 +51,7 @@
   </div>
 
   @if (menuOpen()) {
-    <div id="mobile-menu" class="md:hidden border-t border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-950">
+    <div id="mobile-menu" class="md:hidden absolute inset-x-0 top-full border-y border-slate-200 dark:border-slate-800 bg-white dark:bg-slate-950 shadow-lg">
       <ul class="section-container flex flex-col py-4">
         @for (link of links; track link.href) {
           <li>

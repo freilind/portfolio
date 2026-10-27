@@ -1,5 +1,9 @@
 @reference "../../../../styles.css";
 
+.hero-title {
+  @apply text-4xl sm:text-5xl lg:text-6xl font-extrabold tracking-tight sm:leading-[1.15];
+}
+
 .social-link {
   @apply inline-flex h-10 w-10 items-center justify-center rounded-xl;
   @apply text-slate-600 dark:text-slate-400;
@@ -10,3 +14,46 @@
   @apply block rounded-xl transition duration-300;
   @apply grayscale-[30%] hover:grayscale-0 hover:-translate-y-1 hover:scale-105;
 }
+
+/* ───── Diagrama estilo AWS VPC ───── */
+
+/* Region: contenedor exterior punteado */
+.aws-region {
+  @apply relative rounded-2xl border-2 border-dashed p-4 pt-7 md:p-6 md:pt-8;
+  @apply border-slate-400 bg-slate-100 dark:border-slate-600 dark:bg-slate-900;
+  @apply shadow-xl shadow-slate-900/10 dark:shadow-black/40;
+}
+
+/* VPC: borde sólido */
+.aws-vpc {
+  @apply relative rounded-xl border-2 p-3 pt-6 md:p-4 md:pt-7;
+  @apply border-primary-600 dark:border-primary-400;
+}
+
+/* Availability Zone: borde punteado naranja */
+.aws-az {
+  @apply relative rounded-xl border-2 border-dashed p-3 pt-6;
+  @apply border-orange-500;
+}
+
+/* Subnet: caja sólida con candado sobre el borde */
+.aws-subnet {
+  @apply relative rounded-xl border p-2 pt-3;
+  @apply border-slate-400 bg-white dark:border-slate-600 dark:bg-slate-950;
+}
+
+.aws-lock {
+  @apply absolute -top-2.5 left-2 h-4 w-4 px-px text-orange-600 dark:text-orange-400;
+  @apply bg-slate-100 dark:bg-slate-900;
+}
+
+/* Etiquetas que "cortan" el borde, como en los diagramas de AWS */
+.aws-label {
+  @apply absolute -top-3 left-3 z-10 inline-flex items-center gap-1.5 px-2;
+  @apply font-mono text-[11px] font-medium uppercase tracking-wider;
+  @apply bg-slate-100 dark:bg-slate-900;
+}
+
+.aws-label--region { @apply text-slate-700 dark:text-slate-300; }
+.aws-label--vpc    { @apply text-primary-700 dark:text-primary-400; }
+.aws-label--az     { @apply text-orange-700 dark:text-orange-400; }
