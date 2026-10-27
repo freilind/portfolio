@@ -1,26 +1,12 @@
-@reference "../../../../styles.css"
+@reference "../../../../styles.css";
 
 .social-link {
-  @apply p-2 rounded-lg text-gray-600 dark:text-gray-400
-  hover:text-primary-600 dark:hover:text-primary-400 hover:bg-gray-100 dark:hover:bg-gray-800
-  focus:outline-none focus:ring-2 focus:ring-primary-500;
-}
-
-.certifications {
-  @apply flex flex-wrap items-center gap-3;
+  @apply inline-flex h-10 w-10 items-center justify-center rounded-xl;
+  @apply text-slate-600 dark:text-slate-400;
+  @apply hover:text-primary-700 hover:bg-slate-100 dark:hover:text-primary-400 dark:hover:bg-slate-800 transition-colors;
 }
 
 .cert-badge {
-  @apply inline-flex items-center justify-center rounded-xl bg-white/70 dark:bg-gray-900/40
-  p-2 shadow-sm transition-transform duration-200 ease-out
-  focus:outline-none focus:ring-2 focus:ring-primary-500;
-}
-
-.cert-badge:hover {
-  transform: scale(1.30);
-  z-index: 1;
-}
-
-.cert-badge__img {
-  @apply block h-20 w-20 sm:h-24 sm:w-24 object-contain;
+  @apply block rounded-xl transition duration-300;
+  @apply grayscale-[30%] hover:grayscale-0 hover:-translate-y-1 hover:scale-105;
 }

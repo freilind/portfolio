@@ -1,169 +1,183 @@
-# Portfolio Profesional
+# Portfolio · Freilin Manzano
 
-Un portafolio moderno, elegante y profesional construido con Angular 21 y Tailwind CSS.
+Portafolio profesional de **Freilin Manzano**, Backend Engineer especializado en Java, Spring, microservicios y AWS.
+
+Construido con **Angular 22**, **Tailwind CSS v4** y Signals. Se despliega en **GitHub Pages**.
 
 ## 🚀 Características
 
-- ✨ Diseño moderno y profesional
-- 🌓 Modo oscuro/claro con transiciones suaves
-- 📱 Diseño mobile-first con CSS Grid
-- ⚡ Angular 21 con componentes standalone
-- 🎨 Tailwind CSS para estilos
-- 🔧 TypeScript estricto
-- ♿ Accesible (WCAG AA)
-- 🎯 Señales de Angular para gestión de estado
-- 📊 CSS Grid con templates personalizados
+- 🎨 Estética de ingeniero backend: oscuro por defecto, tipografía monoespaciada y paleta azul/violeta
+- 🌓 Modo claro y oscuro controlado por clase, sin parpadeo al cargar
+- 📱 Mobile-first: espaciado compacto en móvil y elementos decorativos solo en escritorio
+- ♿ Accesible (WCAG AA): skip link, foco visible, ARIA y contraste revisado en ambos temas
+- ⚡ Componentes standalone, `OnPush` y Signals
+- 📨 Formulario de contacto reactivo con validación accesible (Formspree)
+- 🔗 Navegación y redes sociales centralizadas en un único archivo de datos
 
 ## 📦 Stack Tecnológico
 
-- **Framework**: Angular 21
-- **Lenguaje**: TypeScript 5.7
-- **Estilos**: Tailwind CSS 3.4
-- **Gestión de Estado**: Angular Signals
-- **Formularios**: Reactive Forms
+| Área | Tecnología |
+|------|------------|
+| Framework | Angular 22 (standalone, signals, control flow nativo) |
+| Lenguaje | TypeScript 6 (modo estricto) |
+| Estilos | Tailwind CSS 4 (`@tailwindcss/postcss`) |
+| Formularios | Reactive Forms |
+| Fuentes | Inter + JetBrains Mono (Google Fonts) |
+| Hosting | GitHub Pages |
+| Runtime | Node.js ≥ 24, npm ≥ 10 |
 
 ## 🏗️ Estructura del Proyecto
 
 ```
 portfolio/
+├── public/
+│   └── certifications/          # Badges de certificaciones (PNG)
+├── scripts/
+│   └── create-404.mjs           # Copia index.html → 404.html para GitHub Pages
 ├── src/
 │   ├── app/
 │   │   ├── core/
+│   │   │   ├── data/
+│   │   │   │   └── site.ts      # NAV_LINKS y SOCIAL_LINKS (fuente única)
 │   │   │   └── services/
 │   │   │       └── theme.service.ts
 │   │   ├── shared/
 │   │   │   └── components/
-│   │   │       ├── header.component.ts
-│   │   │       ├── hero.component.ts
-│   │   │       ├── about.component.ts
-│   │   │       ├── experience.component.ts
-│   │   │       ├── projects.component.ts
-│   │   │       ├── skills.component.ts
-│   │   │       ├── contact.component.ts
-│   │   │       └── footer.component.ts
+│   │   │       ├── header/      # Nav sticky, menú móvil, toggle de tema
+│   │   │       ├── hero/        # Presentación, ventana de código, certificaciones
+│   │   │       ├── about/       # Bio, estadísticas y principios
+│   │   │       ├── experience/  # Timeline de experiencia
+│   │   │       ├── skills/      # Stack agrupado por categoría
+│   │   │       ├── projects/    # Tarjetas de proyectos
+│   │   │       ├── contact/     # Redes + formulario reactivo
+│   │   │       └── footer/
 │   │   ├── app.component.ts
+│   │   ├── app.html
 │   │   ├── app.config.ts
 │   │   └── app.routes.ts
-│   ├── styles.css
+│   ├── index.html               # SEO, fuentes y script anti-parpadeo de tema
 │   ├── main.ts
-│   └── index.html
-├── tailwind.config.js
-├── tsconfig.json
+│   └── styles.css               # Tema y sistema de diseño (Tailwind v4)
+├── .postcssrc.json
 ├── angular.json
 └── package.json
 ```
 
-## 🎨 Características del Diseño
+Aliases de importación: `@app/*`, `@core/*` y `@shared/*`.
 
-### CSS Grid Layout
-- Grid mobile-first: 1 columna en móvil
-- Grid tablet: 2 columnas
-- Grid desktop: 12 columnas
-- Templates de grid personalizados para diferentes secciones
+## 🧩 Secciones
 
-### Sistema de Temas
-- Modo claro y oscuro
-- Transiciones suaves entre temas
-- Persistencia en localStorage
-- Detección automática de preferencia del sistema
-- Paleta de colores personalizada con primary y secondary
+| # | Sección | Ancla | Contenido |
+|---|---------|-------|-----------|
+| — | Header | — | Logo `<freilin />`, navegación, CTA, tema y menú móvil accesible |
+| — | Hero | — | Nombre, rol, chips de tecnologías, CTAs, redes y certificaciones verificables en Credly |
+| 01 | About | `#about` | Biografía, estadísticas y principios de trabajo |
+| 02 | Experience | `#experience` | Timeline con logros y stack por puesto |
+| 03 | Skills | `#skills` | Tecnologías agrupadas (Backend, Cloud & DevOps, Datos, Frontend & prácticas) |
+| 04 | Projects | `#projects` | Proyectos con enlaces al repositorio y a la demo |
+| 05 | Contact | `#contact` | Redes, ubicación y formulario |
+| — | Footer | — | Navegación, redes y copyright |
 
-### Componentes
+## 🎨 Sistema de Diseño
 
-1. **Header**: Navegación sticky con theme toggle
-2. **Hero**: Sección de bienvenida con gradientes
-3. **About**: Información personal con estadísticas
-4. **Experience**: Timeline de experiencia laboral
-5. **Projects**: Grid de proyectos con cards interactivas
-6. **Skills**: Barras de progreso para habilidades
-7. **Contact**: Formulario de contacto reactivo
-8. **Footer**: Links y redes sociales
+Todo el sistema está en `src/styles.css`. **No hay `tailwind.config.js`**, porque Tailwind v4 se configura desde CSS.
 
-## 🛠️ Instalación
+### Tema
+
+- Los colores `primary` (azul) y `secondary` (violeta) se definen en el bloque `@theme`, con tonos del 50 al 900.
+- Las fuentes son `--font-sans` (Inter) y `--font-mono` (JetBrains Mono).
+- El modo oscuro usa `@custom-variant dark (&:where(.dark, .dark *))` y lo controla `ThemeService`.
+
+### Clases reutilizables
+
+| Clase | Uso |
+|-------|-----|
+| `.section` | Espaciado vertical responsive de cada sección (`py-12` → `lg:py-28`) |
+| `.section-container` | Contenedor centrado (`max-w-6xl`) |
+| `.section-header` / `.section-eyebrow` / `.section-title` / `.section-lead` | Encabezado estándar: `// 0N · nombre` + título + subtítulo |
+| `.grid-layout` | Grid de 1, 2 o 12 columnas |
+| `.card` | Tarjeta con borde, sombra y elevación al pasar el cursor |
+| `.chip` | Etiqueta monoespaciada para tecnologías |
+| `.btn-primary` / `.btn-secondary` | Botones |
+| `.project-link` | Botón de icono (proyectos, footer) |
+| `.form-input` | Inputs y textarea, con estado `aria-invalid` |
+| `text-gradient` / `bg-grid` | Utilidades (`@utility`) para el texto degradado y el fondo cuadriculado |
+
+Las secciones alternan entre fondo blanco y `bg-slate-50 dark:bg-slate-900/40`.
+
+### Responsive
+
+| Breakpoint | Comportamiento |
+|------------|----------------|
+| `< 768px` (móvil) | 1 columna, espaciado compacto y menú hamburguesa |
+| `768px – 1023px` (tablet) | 2 columnas y navegación completa |
+| `≥ 1024px` (desktop) | Grid de 12 columnas, ventana de código en el hero y hero a pantalla completa |
+
+## 🛠️ Instalación y Scripts
 
 ```bash
-# Instalar dependencias
-npm install
-
-# Iniciar servidor de desarrollo
-npm start
-
-# Compilar para producción
-npm run build
+npm install        # Instalar dependencias
+npm start          # Servidor de desarrollo → http://localhost:4200
+npm run build      # Build de producción
+npm run build:gh   # Build para GitHub Pages (base-href /portfolio/ + 404.html)
+npm test           # Tests unitarios
 ```
+
+## 🚢 Despliegue (GitHub Pages)
+
+1. `npm run build:gh`
+2. Publica `dist/portfolio/browser/`.
+
+Las rutas de assets son **relativas** (`certifications/...`, sin `/` inicial), así respetan el `base-href`.
 
 ## 📝 Personalización
 
-### Cambiar Información Personal
+| Qué | Dónde |
+|-----|-------|
+| Nombre, rol, chips, ventana de código y certificaciones | `hero/hero.component.ts` y `hero.html` |
+| Biografía, estadísticas y principios | `about/about.component.ts` y `about.html` |
+| Experiencia laboral | `experience/experience.component.ts` → `experiences` |
+| Stack técnico | `skills/skills.component.ts` → `groups` |
+| Proyectos | `projects/projects.component.ts` → `projects` |
+| Navegación y redes sociales | `core/data/site.ts` → `NAV_LINKS`, `SOCIAL_LINKS` |
+| Formulario de contacto | `contact/contact.component.ts` → `FORM_ENDPOINT` |
+| Colores y fuentes | `src/styles.css` → bloque `@theme` |
+| Título, descripción y Open Graph | `src/index.html` |
 
-1. **Hero Section** (`hero.component.ts`):
-  - Actualiza tu nombre, título y descripción
+### Formulario de contacto
 
-2. **About Section** (`about.component.ts`):
-  - Modifica la biografía y estadísticas
+GitHub Pages no tiene backend, así que el formulario envía los datos a [Formspree](https://formspree.io):
 
-3. **Experience** (`experience.component.ts`):
-  - Edita el array `experiences` con tu experiencia laboral
+1. Crea un formulario en Formspree.
+2. Reemplaza `TU_ID` en `FORM_ENDPOINT` (`contact.component.ts`).
 
-4. **Projects** (`projects.component.ts`):
-  - Actualiza el array `projects` con tus proyectos
+### Añadir una sección nueva
 
-5. **Skills** (`skills.component.ts`):
-  - Modifica `frontendSkills`, `backendSkills` y `tools`
-
-6. **Contact** (`contact.component.ts`):
-  - Actualiza email, teléfono y ubicación
-
-### Cambiar Colores del Tema
-
-Edita `tailwind.config.js` para modificar la paleta de colores:
-
-```javascript
-colors: {
-  primary: {
-    // Tu paleta de color primario
-  },
-  secondary: {
-    // Tu paleta de color secundario
-  }
-}
-```
-
-## 🎯 Mejores Prácticas Implementadas
-
-- ✅ Componentes standalone
-- ✅ Signals para estado reactivo
-- ✅ ChangeDetectionStrategy.OnPush
-- ✅ Formularios reactivos
-- ✅ TypeScript estricto
-- ✅ Control flow nativo (@if, @for)
-- ✅ Class y style bindings (sin ngClass/ngStyle)
-- ✅ Arquitectura limpia y escalable
-
-## 📱 Responsive Design
-
-- Mobile: < 768px (1 columna)
-- Tablet: 768px - 1024px (2 columnas)
-- Desktop: > 1024px (12 columnas)
+1. Crea el componente en `shared/components/<nombre>/`.
+2. Usa `<section id="..." class="section" aria-labelledby="...">` con `.section-header`.
+3. Añádelo a `app.component.ts` y `app.html`.
+4. Si debe aparecer en la navegación, agrégalo a `NAV_LINKS`.
 
 ## ♿ Accesibilidad
 
-- Atributos ARIA apropiados
-- Gestión de foco
-- Navegación por teclado
-- Contraste de colores WCAG AA
-- Labels semánticos
+- Enlace "Saltar al contenido" y foco visible con `:focus-visible`
+- Un solo `<h1>` (en el hero) y jerarquía de encabezados correcta
+- Menú móvil con `aria-expanded` y `aria-controls`, que se cierra con `Escape`
+- Toggle de tema con `aria-pressed`
+- Enlaces externos con aviso "(se abre en una pestaña nueva)"
+- Errores de formulario con `aria-invalid`, `aria-describedby` y estado `aria-live`
+- Se respeta `prefers-reduced-motion`
+- Contraste AA verificado: `primary-700` en modo claro y `primary-400` en oscuro
+
+Verifica con **Lighthouse** o **axe DevTools** en ambos temas.
 
 ## 📄 Licencia
 
-Este proyecto es de código abierto y está disponible bajo la licencia MIT.
-
-## 🤝 Contribuciones
-
-Las contribuciones son bienvenidas. Por favor, abre un issue primero para discutir los cambios que te gustaría realizar.
+Código abierto bajo licencia MIT.
 
 ## 📧 Contacto
 
-- Email: -
 - LinkedIn: [freilind](https://www.linkedin.com/in/freilind/)
 - GitHub: [freilind](https://github.com/freilind)
+- Credly: [freilin-manzano](https://www.credly.com/users/freilin-manzano)
+```

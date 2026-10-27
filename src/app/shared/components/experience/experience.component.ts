@@ -1,52 +1,76 @@
-import { Component, ChangeDetectionStrategy, signal } from '@angular/core';
+
+import { Component, ChangeDetectionStrategy } from '@angular/core';
 
 interface Experience {
   id: number;
-  title: string;
+  role: string;
   company: string;
+  client?: string;
   period: string;
-  description: string;
+  current?: boolean;
+  summary: string;
+  highlights: string[];
   technologies: string[];
 }
 
 @Component({
   selector: 'app-experience',
   changeDetection: ChangeDetectionStrategy.OnPush,
-  templateUrl: './experience.html'
+  templateUrl: './experience.html',
 })
 export class ExperienceComponent {
-  experiences = signal<Experience[]>([
+  protected readonly experiences: Experience[] = [
     {
       id: 1,
-      title: 'Senior Developer',
+      role: 'Senior Developer',
       company: 'Nisum Latam',
-      period: '2016 - Presente',
-      description: 'Desarrollo de producto crédito hipotecario y app pyme para el sector bancario. Destructurando el monolito en nuevos componentes para arquitectura de microservicios. Apoyando a la organización en la transformación digital y metodologías ágiles.',
-      technologies: ['Java', 'Spring', 'Jenkins', 'Docker', 'Scrum']
+      period: '2016 — Presente',
+      current: true,
+      summary: 'Desarrollo de productos digitales para el sector bancario.',
+      highlights: [
+        'Descomposición de un monolito en una arquitectura de microservicios con Java y Spring.',
+        'Desarrollo del producto de crédito hipotecario y de la app para pymes.',
+        'Apoyo a la transformación digital y a la adopción de metodologías ágiles.',
+      ],
+      technologies: ['Java', 'Spring Boot', 'Microservicios', 'Docker', 'Jenkins', 'Scrum'],
     },
     {
       id: 2,
-      title: 'Developer full stack',
-      company: 'Lorebi c.a.',
-      period: '2015 - 2016',
-      description: 'Desarrollo de una plataforma de wifi gratuita que requiere que la persona observe publicidad segmentada antes de permitirle navegar por un tiempo determinado. Mi función era el desarrollo de toda la aplicación utilizando java y framework Spring mvc. utilizando el patrón DAO. Desarrollo de un dashboard que donde se visualicen las métricas y comportamiento de los usuarios del wifi.',
-      technologies: ['Angular', 'Java', 'Python', 'PostgreSQL', 'Svn']
+      role: 'Full Stack Developer',
+      company: 'Lorebi C.A.',
+      period: '2015 — 2016',
+      summary: 'Plataforma de WiFi gratuito financiada con publicidad segmentada.',
+      highlights: [
+        'Desarrollo integral de la aplicación con Java, Spring MVC y el patrón DAO.',
+        'Dashboard de métricas y comportamiento de los usuarios de la red.',
+      ],
+      technologies: ['Java', 'Spring MVC', 'Angular', 'Python', 'PostgreSQL', 'SVN'],
     },
     {
       id: 3,
-      title: 'Especialista IT',
-      company: 'Corporación Wimac Systems, C.A',
-      period: '2013 - 2014',
-      description: 'Proyecto sobre reclamos y fallas masivas. Telecomunicaciones Movilnet C.A. Desarrollo de módulo para registrar los reclamos de los clientes y generar estadísticas y reportes que ayudaran a la gerencia del negocio a tomar decisiones con respecto a las fallas. Mi función era el desarrollo de la capa vista y controlador del sistema..',
-      technologies: ['Java', 'Primefaces', 'PostgreSQL', 'Jboss']
+      role: 'Especialista IT',
+      company: 'Corporación Wimac Systems C.A.',
+      client: 'Movilnet',
+      period: '2013 — 2014',
+      summary: 'Sistema de gestión de reclamos y fallas masivas en telecomunicaciones.',
+      highlights: [
+        'Desarrollo de las capas de vista y controlador del módulo de reclamos.',
+        'Estadísticas y reportes para la toma de decisiones de la gerencia.',
+      ],
+      technologies: ['Java', 'PrimeFaces', 'PostgreSQL', 'JBoss'],
     },
     {
       id: 4,
-      title: 'Developer java',
-      company: 'Eliexir Cm Computer C.A',
-      period: '2012 - 2013',
-      description: 'Proyecto en el área postpago en VPN de Voz módulo para CVSC+ (Centro Virtual de Servicio al Cliente). Telefónica Venezuela C.A. Desarrollo de módulo para asociar números telefónicos a grupos definidos por los clientes empresariales y vpn con la finalidad de lograr la comunicación directa con planes y condiciones especiales. Mi función era el desarrollo de webservice que utilizaran los stored procedured corespondientes para la activación y desactivación de planes y servicios en el módulo de VPN de voz. ',
-      technologies: ['Java', 'Weblogic', 'Web services sopap', 'Plsql', 'maven']
-    }
-  ]);
+      role: 'Java Developer',
+      company: 'Eliexir CM Computer C.A.',
+      client: 'Telefónica Venezuela',
+      period: '2012 — 2013',
+      summary: 'Módulo de VPN de voz para el Centro Virtual de Servicio al Cliente (CVSC+).',
+      highlights: [
+        'Web services SOAP para activar y desactivar planes y servicios mediante stored procedures.',
+        'Asociación de números a grupos empresariales con planes y condiciones especiales.',
+      ],
+      technologies: ['Java', 'WebLogic', 'SOAP', 'PL/SQL', 'Maven'],
+    },
+  ];
 }

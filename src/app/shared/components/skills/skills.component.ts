@@ -1,42 +1,48 @@
-import { Component, ChangeDetectionStrategy, signal } from '@angular/core';
+import { Component, ChangeDetectionStrategy } from '@angular/core';
 
-interface Skill {
-  id: number;
-  name: string;
-  level: number;
-  category: string;
+interface SkillGroup {
+  id: string;
+  title: string;
+  description: string;
+  icon: string;
+  skills: string[];
 }
 
 @Component({
   selector: 'app-skills',
   changeDetection: ChangeDetectionStrategy.OnPush,
-  templateUrl: './skills.html'
+  templateUrl: './skills.html',
 })
 export class SkillsComponent {
-  frontendSkills = signal<Skill[]>([
-    { id: 1, name: 'Angular', level: 95, category: 'frontend' },
-    { id: 2, name: 'TypeScript', level: 90, category: 'frontend' },
-    { id: 3, name: 'React', level: 85, category: 'frontend' },
-    { id: 4, name: 'Tailwind CSS', level: 88, category: 'frontend' },
-    { id: 5, name: 'RxJS', level: 82, category: 'frontend' }
-  ]);
 
-  backendSkills = signal<Skill[]>([
-    { id: 6, name: 'Node.js', level: 88, category: 'backend' },
-    { id: 7, name: 'Express', level: 85, category: 'backend' },
-    { id: 8, name: 'PostgreSQL', level: 80, category: 'backend' },
-    { id: 9, name: 'MongoDB', level: 82, category: 'backend' },
-    { id: 10, name: 'REST APIs', level: 90, category: 'backend' }
-  ]);
-
-  tools = signal<string[]>([
-    'Git & GitHub',
-    'Docker',
-    'VS Code',
-    'Figma',
-    'Jira',
-    'Postman',
-    'Firebase',
-    'Vercel'
-  ]);
+  protected readonly groups: SkillGroup[] = [
+    {
+      id: 'backend',
+      title: 'Backend',
+      description: 'Servicios robustos y APIs bien diseñadas.',
+      icon: 'M5 12h14M5 12a2 2 0 01-2-2V6a2 2 0 012-2h14a2 2 0 012 2v4a2 2 0 01-2 2M5 12a2 2 0 00-2 2v4a2 2 0 002 2h14a2 2 0 002-2v-4a2 2 0 00-2-2m-2-4h.01M17 16h.01',
+      skills: ['Java', 'Spring Boot', 'Spring Security', 'Spring Data JPA', 'Spring Cloud', 'Hibernate', 'REST', 'SOAP', 'Maven'],
+    },
+    {
+      id: 'cloud',
+      title: 'Cloud & DevOps',
+      description: 'Infraestructura reproducible y despliegues automatizados.',
+      icon: 'M3 15a4 4 0 004 4h9a5 5 0 10-.1-9.999 5.002 5.002 0 10-9.78 2.096A4.001 4.001 0 003 15z',
+      skills: ['AWS', 'Terraform', 'Docker', 'Jenkins', 'CI/CD', 'Git'],
+    },
+    {
+      id: 'data',
+      title: 'Datos',
+      description: 'Modelado y persistencia eficiente.',
+      icon: 'M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4m0 5c0 2.21-3.582 4-8 4s-8-1.79-8-4',
+      skills: ['PostgreSQL', 'Oracle', 'PL/SQL', 'SQL'],
+    },
+    {
+      id: 'practices',
+      title: 'Frontend & prácticas',
+      description: 'Visión completa del producto y del proceso.',
+      icon: 'M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4',
+      skills: ['Angular', 'TypeScript', 'PrimeFaces', 'Scrum', 'Clean Code', 'Code Review'],
+    },
+  ];
 }

@@ -2,14 +2,28 @@
 <html lang="es">
 <head>
   <meta charset="utf-8">
-  <title>Portfolio - Tu Nombre</title>
+  <title>Freilin Manzano · Backend Engineer | Java, Spring & AWS</title>
   <base href="/">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Portafolio profesional de desarrollador web full stack">
-  <meta name="theme-color" content="#0ea5e9">
+  <meta name="description" content="Backend Engineer especializado en Java, Spring Boot, microservicios y arquitecturas cloud en AWS. Certificado AWS, Terraform y Spring.">
+  <meta name="theme-color" content="#020617">
+  <meta property="og:title" content="Freilin Manzano · Backend Engineer">
+  <meta property="og:description" content="Java · Spring · Microservicios · AWS · Terraform">
+  <meta property="og:type" content="website">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap">
+  <script>
+    (function () {
+      try {
+        var t = localStorage.getItem('portfolio-theme');
+        var dark = t ? t === 'dark' : window.matchMedia('(prefers-color-scheme: dark)').matches;
+        document.documentElement.classList.toggle('dark', dark);
+        document.documentElement.style.colorScheme = dark ? 'dark' : 'light';
+      } catch (e) {}
+    })();
+  </script>
 </head>
 <body>
 <app-root></app-root>
